@@ -1,4 +1,4 @@
-# Creative D
+# Creative Design
 
 ## Preparation
 
@@ -17,13 +17,15 @@
 
 * Before starting my project I thought about how I am going to structure and design my project. The first step I took was to create a diagram on my notes book (a basic sketch of what the website would look like).
 
-* I chose this color pattern of ...
+* Im chosing the colors of black, orange and white because i think those are good colors for what im doing and they stand out from each other well.
 
 * I wrote some notes down on what I needed to add to my project so that I won't forget later.
 
-* I began creating a more detailed wireframe on the "InVision" website.
-
 * I turned my basic notes into User stories and then created iterations.  
 
+* I began creating a more detailed wireframe on the "InVision" website.
+
+![InVision website](media/inVision.png)
+![Closer look into the Invision Diagrams](media/Invision_pages.png)
 ***
 ## Introduction To My Website
