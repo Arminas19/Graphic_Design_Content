@@ -9,3 +9,7 @@ pip3 freeze > reqrements.txt
 Dont Forget List:
 1. Sending Emails:
 Once deployed to Heroku, the sending of actual emails will become a possibility, so please wait until then before attempting it.
+
+
+old Font awesome:
+fas fa-search
