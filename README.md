@@ -17,7 +17,7 @@
 
 * Before starting my project I thought about how I am going to structure and design my project. The first step I took was to create a diagram on my notes book (a basic sketch of what the website would look like).
 
-* Im chosing the colors of black, orange and white because i think those are good colors for what im doing and they stand out from each other well.
+* Im chosing the colors of yellow with a tint of orange and blue with dark blue tints and white for the font because i think those are good colors and go well together.
 
 * I wrote some notes down on what I needed to add to my project so that I won't forget later.
 
