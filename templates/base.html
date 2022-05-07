@@ -20,7 +20,7 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'css/base.css' %}">
-    <link rel="shortcut icon" type="image/png" href="media/favicon.png">
+    <link rel="shortcut icon" type="image/png" href="{{ MEDIA_URL }}favicon.png">
     {% endblock %}
 
     {% block extra_css %}
@@ -99,7 +99,7 @@
                     </li>
                     <li class="list-inline-item">
                         <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-white{% endif %} nav-link"
-                            href="">
+                            href="{% url 'bag' %}">
                             <div class="text-center">
                                 <div><i class="fas fa-shopping-bag fa-lg"></i></div>
                                 <p class="my-0">
@@ -113,7 +113,7 @@
                         </a>
                     </li>
                     <li class="list-inline-item dropdown">
-                        <a class="text-black nav-link" href="#" id="user-options">
+                        <a class="text-black nav-link" href="{% url 'about' %}" id="user-options">
                             <div class="text-center">
                                 <div><i class="fa fa-users fa-lg text-white"></i></div>
                                 <p class="my-0 text-white">About Us</p>
