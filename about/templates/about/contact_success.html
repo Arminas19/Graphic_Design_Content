@@ -4,17 +4,23 @@
 {% block page_header %}
     <div class="container header-container">
         <div class="row">
-            <div class="col"></div>
+            <div class="col">
+                
+            </div>
         </div>
     </div>
 {% endblock %}
 
 {% block content %}
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <h1> Contact Successfull! </h1>
-            </div>
+<div class="container h-100 ">
+    <div class="row d-flex align-items-center justify-content-center">
+        <div class="col-12 text-center ">
+            <h1 class="uppercase main-heading text-uppercase text-contact">Thank you!</h1>
+            <div class="text-center mt-3"></div>
+            <p class="paragraph text-white weight ">Your message has been sent successfully.</p>
+                     <p class="paragraph text-white weight ">We will get back to you soon!</p>
+            <a href="{% url 'home' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">Back home</a>
         </div>
     </div>
+</div>
 {% endblock %}

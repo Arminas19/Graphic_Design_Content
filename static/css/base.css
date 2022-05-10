@@ -62,7 +62,11 @@ body{
     color:#FFFF00;
 }
 
-.text-green{
+.text-red { 
+    color: #e83b3b;
+}
+
+.text-green {
     color: #009E60;
 }
 
@@ -145,12 +149,16 @@ body{
     font-size: 60px;
     font-weight: 1000;
     letter-spacing: 10px;
-    
 }
 
 .font-weight {
     font-weight: 400;
     font-size: 50px;
+}
+
+.weight {
+    font-weight: 400;
+    font-size: 30px;
 }
 /* textarea */
 
