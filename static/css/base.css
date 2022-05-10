@@ -81,10 +81,6 @@ body{
     background: white;
 }
 
-.bg-whitee {
-    background: white;
-}
-
 .text-black {
     color: #000 !important;
 }
@@ -131,13 +127,16 @@ body{
 .overlay {
 	height: 100%;
 	width: 100%;
-	top: 0;
-	left: 0;
-	position: fixed;
-	background: white;
-	z-index: -1;
+	background: #f5f5f5;
 }
 
+.text-contact {
+    color: #FFD700;
+    font-size: 60px;
+    font-weight: 1000;
+    letter-spacing: 10px;
+    
+}
 /* Footer */
 
 footer {

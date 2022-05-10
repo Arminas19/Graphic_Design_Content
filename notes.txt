@@ -5,6 +5,8 @@ pass: Admin
 code:
 pip3 freeze > reqrements.txt
 
+hard refreshing key:
+CTRL-SHIFT-R 
 
 Dont Forget List:
 1. Sending Emails:
