@@ -81,6 +81,10 @@ body{
     background: white;
 }
 
+.bg-whitee {
+    background: white;
+}
+
 .text-black {
     color: #000 !important;
 }
@@ -122,6 +126,16 @@ body{
 .btn-black:focus {
     background: #ffd900b4;
     color: white;
+}
+
+.overlay {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: white;
+	z-index: -1;
 }
 
 /* Footer */
