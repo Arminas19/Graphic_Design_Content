@@ -383,10 +383,10 @@
         "image": "painting2.jpg"
     }
 },{
-    "pk": 32,
+    "pk": 33,
     "model": "products.product",
     "fields": {
-        "sku": "00032",
+        "sku": "00033",
         "name": "Painting 3",
         "description": "Painting 3 decription",
         "price": 40.99,
@@ -395,10 +395,10 @@
         "image": "painting3.jpg"
     }
 },{
-    "pk": 33,
+    "pk": 34,
     "model": "products.product",
     "fields": {
-        "sku": "00033",
+        "sku": "00034",
         "name": "Painting 4",
         "description": "Painting 4 decription",
         "price": 42.99,
@@ -407,10 +407,10 @@
         "image": "painting4.jpg"
     }
 },{
-    "pk": 34,
+    "pk": 35,
     "model": "products.product",
     "fields": {
-        "sku": "00034",
+        "sku": "00035",
         "name": "Painting 5",
         "description": "Painting 5 decription",
         "price": 41.99,
@@ -419,10 +419,10 @@
         "image": "painting5.jpg"
     }
 },{
-    "pk": 35,
+    "pk": 36,
     "model": "products.product",
     "fields": {
-        "sku": "00035",
+        "sku": "00036",
         "name": "Painting 6",
         "description": "Painting 6 decription",
         "price": 39.99,
@@ -431,10 +431,10 @@
         "image": "painting6.jpg"
     }
 },{
-    "pk": 36,
+    "pk": 37,
     "model": "products.product",
     "fields": {
-        "sku": "00036",
+        "sku": "00037",
         "name": "Painting 7",
         "description": "Painting 7 decription",
         "price": 44.99,
@@ -443,10 +443,10 @@
         "image": "painting7.jpg"
     }
 },{
-    "pk": 37,
+    "pk": 38,
     "model": "products.product",
     "fields": {
-        "sku": "00037",
+        "sku": "00038",
         "name": "Painting 8",
         "description": "Painting 8 decription",
         "price": 42.99,
@@ -455,10 +455,10 @@
         "image": "painting8.jpg"
     }
 },{
-    "pk": 38,
+    "pk": 39,
     "model": "products.product",
     "fields": {
-        "sku": "00038",
+        "sku": "00039",
         "name": "Painting 9",
         "description": "Painting 9 decription",
         "price": 41.99,
@@ -467,10 +467,10 @@
         "image": "painting9.jpg"
     }
 },{
-    "pk": 39,
+    "pk": 40,
     "model": "products.product",
     "fields": {
-        "sku": "00039",
+        "sku": "00040",
         "name": "Painting 10",
         "description": "Painting 10 decription",
         "price": 45.99,
@@ -479,27 +479,15 @@
         "image": "painting10.jpg"
     }
 },{
-    "pk": 40,
+    "pk": 41,
     "model": "products.product",
     "fields": {
-        "sku": "00040",
+        "sku": "00041",
         "name": "Painting 11",
         "description": "Painting 11 decription",
         "price": 39.00,
         "category": 1,
         "rating": 3.2,
-        "image": "painting11.jpg"
-    }
-},{
-    "pk": 41,
-    "model": "products.product",
-    "fields": {
-        "sku": "00041",
-        "name": "Painting 12",
-        "description": "Painting 12 decription",
-        "price": 41.99,
-        "category": 1,
-        "rating": 3.5,
         "image": "painting11.jpg"
     }
 },{
@@ -509,9 +497,9 @@
         "sku": "00042",
         "name": "Painting 12",
         "description": "Painting 12 decription",
-        "price": 42.99,
+        "price": 41.99,
         "category": 1,
-        "rating": 3.6,
+        "rating": 3.5,
         "image": "painting12.jpg"
     }
 },{
