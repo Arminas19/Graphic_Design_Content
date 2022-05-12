@@ -19,5 +19,3 @@ old Font awesome:
 fas fa-search
 
 ToDo:
-Finish writting 3 paragraghs in the About Page
-Go to the admin panel and write a description and give the products a fitting name. ( Do this for all 45 products :). )
