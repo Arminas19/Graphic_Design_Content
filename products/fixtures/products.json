@@ -1,0 +1,553 @@
+[{
+    "pk": 1,
+    "model": "products.product",
+    "fields": {
+        "sku": "0001",
+        "name": "Pixel Art 1",
+        "description": "Pixel Art 1",
+        "price": 53.99,
+        "category": 2,
+        "rating": 4.6,
+        "image": "0001.png"
+    }
+}, {
+    "pk": 2,
+    "model": "products.product",
+    "fields": {
+        "sku": "0002",
+        "name": "Pixel Art 2",
+        "description": "Pixel Art 2",
+        "price": 58.99,
+        "category": 2,
+        "rating": 4.6,
+        "image": "0002.png"
+    }
+}, {
+    "pk": 3,
+    "model": "products.product",
+    "fields": {
+        "sku": "0003",
+        "name": "Pixel Art 3",
+        "description": "Pixel Art 3",
+        "price": 54.99,
+        "category": 2,
+        "rating": 4.6,
+        "image": "0003.png"
+    }
+},{
+    "pk": 4,
+    "model": "products.product",
+    "fields": {
+        "sku": "0004",
+        "name": "Pixel Art 4",
+        "description": "Pixel Art 4",
+        "price": 59.99,
+        "category": 2,
+        "rating": 4.1,
+        "image": "0004.png"
+    }
+},{
+    "pk": 5,
+    "model": "products.product",
+    "fields": {
+        "sku": "0005",
+        "name": "Pixel Art 5",
+        "description": "Pixel Art 5",
+        "price": 55.99,
+        "category": 2,
+        "rating": 4.2,
+        "image": "0005.png"
+    }
+},{
+    "pk": 6,
+    "model": "products.product",
+    "fields": {
+        "sku": "0006",
+        "name": "Pixel Art 6",
+        "description": "Pixel Art 6",
+        "price": 53.99,
+        "category": 2,
+        "rating": 3.9,
+        "image": "0006.png"
+    }
+},{
+    "pk": 7,
+    "model": "products.product",
+    "fields": {
+        "sku": "0007",
+        "name": "Pixel Art 7",
+        "description": "Pixel Art 7",
+        "price": 57.00,
+        "category": 2,
+        "rating": 4.0,
+        "image": "0007.png"
+    }
+},{
+    "pk": 8,
+    "model": "products.product",
+    "fields": {
+        "sku": "0008",
+        "name": "Pixel Art 8",
+        "description": "Pixel Art 8",
+        "price": 49.99,
+        "category": 2,
+        "rating": 4.6,
+        "image": "0008.png"
+    }
+},{
+    "pk": 9,
+    "model": "products.product",
+    "fields": {
+        "sku": "0009",
+        "name": "Pixel Art 9",
+        "description": "Pixel Art 9",
+        "price": 58.00,
+        "category": 2,
+        "rating": 3.6,
+        "image": "0009.png"
+    }
+},{
+    "pk": 10,
+    "model": "products.product",
+    "fields": {
+        "sku": "00010",
+        "name": "Pixel Art 10",
+        "description": "Pixel Art 10",
+        "price": 51.50,
+        "category": 2,
+        "rating": 4.2,
+        "image": "0010.png"
+    }
+},{
+    "pk": 11,
+    "model": "products.product",
+    "fields": {
+        "sku": "00011",
+        "name": "Pixel Art 11",
+        "description": "Pixel Art 11",
+        "price": 53.99,
+        "category": 2,
+        "rating": 4.6,
+        "image": "0011.png"
+    }
+},{
+    "pk": 12,
+    "model": "products.product",
+    "fields": {
+        "sku": "00012",
+        "name": "Pixel Art 12",
+        "description": "Pixel Art 12",
+        "price": 60.99,
+        "category": 2,
+        "rating": 4.8,
+        "image": "0012.png"
+    }
+},{
+    "pk": 13,
+    "model": "products.product",
+    "fields": {
+        "sku": "00013",
+        "name": "Pixel Art 13",
+        "description": "Pixel Art 13",
+        "price": 48.99,
+        "category": 2,
+        "rating": 3.3,
+        "image": "0013.png"
+    }
+},{
+    "pk": 14,
+    "model": "products.product",
+    "fields": {
+        "sku": "00014",
+        "name": "Pixel Art 14",
+        "description": "Pixel Art 14",
+        "price": 53.55,
+        "category": 2,
+        "rating": 4.6,
+        "image": "0014.png"
+    }
+},{
+    "pk": 15,
+    "model": "products.product",
+    "fields": {
+        "sku": "00015",
+        "name": "Pixel Art 15",
+        "description": "Pixel Art 15",
+        "price": 57.88,
+        "category": 2,
+        "rating": 4.2,
+        "image": "0015.png"
+    }
+},{
+    "pk": 16,
+    "model": "products.product",
+    "fields": {
+        "sku": "00016",
+        "name": "Graphic Design 1",
+        "description": "Graphic Design description 1",
+        "price": 68.99,
+        "category": 3,
+        "rating": 4.6,
+        "image": "GD.png"
+    }
+},{
+    "pk": 17,
+    "model": "products.product",
+    "fields": {
+        "sku": "00017",
+        "name": "Graphic Design 2",
+        "description": "Graphic Design description 2",
+        "price": 66.99,
+        "category": 3,
+        "rating": 4.5,
+        "image": "GD2.png"
+    }
+},{
+    "pk": 18,
+    "model": "products.product",
+    "fields": {
+        "sku": "00018",
+        "name": "Graphic Design 3",
+        "description": "Graphic Design description 3",
+        "price": 68.99,
+        "category": 3,
+        "rating": 4.7,
+        "image": "GD3.png"
+    }
+},{
+    "pk": 19,
+    "model": "products.product",
+    "fields": {
+        "sku": "00019",
+        "name": "Graphic Design 4",
+        "description": "Graphic Design description 4",
+        "price": 61.99,
+        "category": 3,
+        "rating": 4.3,
+        "image": "GD4.png"
+    }
+},{
+    "pk": 20,
+    "model": "products.product",
+    "fields": {
+        "sku": "00020",
+        "name": "Graphic Design 5",
+        "description": "Graphic Design description 5",
+        "price": 68.99,
+        "category": 3,
+        "rating": 4.7,
+        "image": "GD5.png"
+    }
+},{
+    "pk": 21,
+    "model": "products.product",
+    "fields": {
+        "sku": "00021",
+        "name": "Graphic Design 6",
+        "description": "Graphic Design description 6",
+        "price": 66.99,
+        "category": 3,
+        "rating": 4.5,
+        "image": "GD6.png"
+    }
+},{
+    "pk": 22,
+    "model": "products.product",
+    "fields": {
+        "sku": "00022",
+        "name": "Graphic Design 7",
+        "description": "Graphic Design description 7",
+        "price": 70.00,
+        "category": 3,
+        "rating": 4.8,
+        "image": "GD7.png"
+    }
+},{
+    "pk": 23,
+    "model": "products.product",
+    "fields": {
+        "sku": "00023",
+        "name": "Graphic Design 8",
+        "description": "Graphic Design description 8",
+        "price": 66.99,
+        "category": 3,
+        "rating": 4.5,
+        "image": "GD8.png"
+    }
+},{
+    "pk": 24,
+    "model": "products.product",
+    "fields": {
+        "sku": "00024",
+        "name": "Graphic Design 9",
+        "description": "Graphic Design description 9",
+        "price": 62.99,
+        "category": 3,
+        "rating": 4.3,
+        "image": "GD9.png"
+    }
+},{
+    "pk": 25,
+    "model": "products.product",
+    "fields": {
+        "sku": "00025",
+        "name": "Graphic Design 10",
+        "description": "Graphic Design description 10",
+        "price": 60.99,
+        "category": 3,
+        "rating": 3.9,
+        "image": "GD10.png"
+    }
+},{
+    "pk": 26,
+    "model": "products.product",
+    "fields": {
+        "sku": "00026",
+        "name": "Graphic Design 11",
+        "description": "Graphic Design description 11",
+        "price": 68.99,
+        "category": 3,
+        "rating": 4.6,
+        "image": "GD11.png"
+    }
+},{
+    "pk": 27,
+    "model": "products.product",
+    "fields": {
+        "sku": "00027",
+        "name": "Graphic Design 12",
+        "description": "Graphic Design description 12",
+        "price": 69.99,
+        "category": 3,
+        "rating": 4.8,
+        "image": "GD12.png"
+    }
+},{
+    "pk": 28,
+    "model": "products.product",
+    "fields": {
+        "sku": "00028",
+        "name": "Graphic Design 13",
+        "description": "Graphic Design description 13",
+        "price": 60.99,
+        "category": 3,
+        "rating": 4.1,
+        "image": "GD13.png"
+    }
+},{
+    "pk": 29,
+    "model": "products.product",
+    "fields": {
+        "sku": "00029",
+        "name": "Graphic Design 14",
+        "description": "Graphic Design description 14",
+        "price": 60.99,
+        "category":3,
+        "rating": 4.0,
+        "image": "GD14.png"
+    }
+},{
+    "pk": 30,
+    "model": "products.product",
+    "fields": {
+        "sku": "00030",
+        "name": "Graphic Design 15",
+        "description": "Graphic Design description 15",
+        "price": 59.99,
+        "category": 3,
+        "rating": 3.9,
+        "image": "GD15.png"
+    }
+},{
+    "pk": 31,
+    "model": "products.product",
+    "fields": {
+        "sku": "00031",
+        "name": "Painting 1",
+        "description": "Painting 1 decription",
+        "price": 40.99,
+        "category": 1,
+        "rating": 3.5,
+        "image": "painting1.jpg"
+    }
+},{
+    "pk": 32,
+    "model": "products.product",
+    "fields": {
+        "sku": "00032",
+        "name": "Painting 2",
+        "description": "Painting 2 description",
+        "price": 43.99,
+        "category": 1,
+        "rating": 3.7,
+        "image": "painting2.jpg"
+    }
+},{
+    "pk": 32,
+    "model": "products.product",
+    "fields": {
+        "sku": "00032",
+        "name": "Painting 3",
+        "description": "Painting 3 decription",
+        "price": 40.99,
+        "category": 1,
+        "rating": 3.4,
+        "image": "painting3.jpg"
+    }
+},{
+    "pk": 33,
+    "model": "products.product",
+    "fields": {
+        "sku": "00033",
+        "name": "Painting 4",
+        "description": "Painting 4 decription",
+        "price": 42.99,
+        "category": 1,
+        "rating": 3.6,
+        "image": "painting4.jpg"
+    }
+},{
+    "pk": 34,
+    "model": "products.product",
+    "fields": {
+        "sku": "00034",
+        "name": "Painting 5",
+        "description": "Painting 5 decription",
+        "price": 41.99,
+        "category": 1,
+        "rating": 3.7,
+        "image": "painting5.jpg"
+    }
+},{
+    "pk": 35,
+    "model": "products.product",
+    "fields": {
+        "sku": "00035",
+        "name": "Painting 6",
+        "description": "Painting 6 decription",
+        "price": 39.99,
+        "category": 1,
+        "rating": 3.2,
+        "image": "painting6.jpg"
+    }
+},{
+    "pk": 36,
+    "model": "products.product",
+    "fields": {
+        "sku": "00036",
+        "name": "Painting 7",
+        "description": "Painting 7 decription",
+        "price": 44.99,
+        "category": 1,
+        "rating": 4.0,
+        "image": "painting7.jpg"
+    }
+},{
+    "pk": 37,
+    "model": "products.product",
+    "fields": {
+        "sku": "00037",
+        "name": "Painting 8",
+        "description": "Painting 8 decription",
+        "price": 42.99,
+        "category": 1,
+        "rating": 3.7,
+        "image": "painting8.jpg"
+    }
+},{
+    "pk": 38,
+    "model": "products.product",
+    "fields": {
+        "sku": "00038",
+        "name": "Painting 9",
+        "description": "Painting 9 decription",
+        "price": 41.99,
+        "category": 1,
+        "rating": 3.6,
+        "image": "painting9.jpg"
+    }
+},{
+    "pk": 39,
+    "model": "products.product",
+    "fields": {
+        "sku": "00039",
+        "name": "Painting 10",
+        "description": "Painting 10 decription",
+        "price": 45.99,
+        "category": 1,
+        "rating": 4.1,
+        "image": "painting10.jpg"
+    }
+},{
+    "pk": 40,
+    "model": "products.product",
+    "fields": {
+        "sku": "00040",
+        "name": "Painting 11",
+        "description": "Painting 11 decription",
+        "price": 39.00,
+        "category": 1,
+        "rating": 3.2,
+        "image": "painting11.jpg"
+    }
+},{
+    "pk": 41,
+    "model": "products.product",
+    "fields": {
+        "sku": "00041",
+        "name": "Painting 12",
+        "description": "Painting 12 decription",
+        "price": 41.99,
+        "category": 1,
+        "rating": 3.5,
+        "image": "painting11.jpg"
+    }
+},{
+    "pk": 42,
+    "model": "products.product",
+    "fields": {
+        "sku": "00042",
+        "name": "Painting 12",
+        "description": "Painting 12 decription",
+        "price": 42.99,
+        "category": 1,
+        "rating": 3.6,
+        "image": "painting12.jpg"
+    }
+},{
+    "pk": 43,
+    "model": "products.product",
+    "fields": {
+        "sku": "00043",
+        "name": "Painting 13",
+        "description": "Painting 13 decription",
+        "price": 44.99,
+        "category": 1,
+        "rating": 3.8,
+        "image": "painting13.jpg"
+    }
+},{
+    "pk": 44,
+    "model": "products.product",
+    "fields": {
+        "sku": "00044",
+        "name": "Painting 14",
+        "description": "Painting 14 decription",
+        "price": 38.99,
+        "category": 1,
+        "rating": 3.1,
+        "image": "painting14.jpg"
+    }
+},{
+    "pk": 45,
+    "model": "products.product",
+    "fields": {
+        "sku": "00045",
+        "name": "Painting 15",
+        "description": "Painting 15 decription",
+        "price": 42.99,
+        "category": 1,
+        "rating": 3.7,
+        "image": "painting15.jpg"
+    }
+}]
