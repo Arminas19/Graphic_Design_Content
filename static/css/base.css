@@ -144,6 +144,22 @@ body{
 	background: #ed6161;
 }
 
+.all-products {
+    color: #0095ff;
+    font-size: 60px;
+    font-weight: 1000;
+    letter-spacing: 4px;
+}
+
+.white-overlay {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: white;
+	z-index: -1;
+}
 .text-contact {
     color: #FFD700;
     font-size: 60px;
