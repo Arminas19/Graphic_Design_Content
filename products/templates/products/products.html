@@ -2,9 +2,9 @@
 {% load static %}
 
 {% block page_header %}
-    <div class="container header-container">
+    <div class="container header-container text-center">
         <div class="row">
-            <div class="col text-center mb-1">
+            <div class="col mb-1">
                 <h2 class="logo-font all-products">Products</h2>
                 {% for c in current_categories %}
                     <a class="category-badge" href="{% url 'products' %}?category={{ c.name }}">
