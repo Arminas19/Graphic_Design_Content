@@ -19,3 +19,4 @@ old Font awesome:
 fas fa-search
 
 ToDo:
+Randomize the products.
