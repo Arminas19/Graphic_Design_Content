@@ -5,27 +5,27 @@
                 All Products <i class="fa fa-arrow-down" aria-hidden="true"></i>
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="{% url 'products' %}" class="dropdown-item text-white">Posters</a>
-                <a href="{% url 'products' %}" class="dropdown-item text-white">Icons</a>
-                <a href="{% url 'products' %}" class="dropdown-item text-white">Tools</a>
-                <a href="{% url 'products' %}" class="dropdown-item text-white">All Products</a>
+                <a href="{% url 'products' %}?category=paintings" class="dropdown-item text-white">Painting's</a>
+                <a href="{% url 'products' %}?category=graphic_design" class="dropdown-item text-white">Graphic Design's</a>
+                <a href="{% url 'products' %}?category=pixel_art" class="dropdown-item text-white">Pixel Art</a>
+                <a href="{% url 'products' %}?category=pixel_art,paintings,graphic_design" class="dropdown-item text-white">All Products</a>
             </div>
         </li>
 
         <li class="nav-item">
-            <a class="logo-font font-weight-bold nav-link text-white mr-5 text-larger" href="{% url 'products' %}" id="posters-link">
+            <a class="logo-font font-weight-bold nav-link text-white mr-5 text-larger" href="{% url 'products' %}?category=paintings" id="paintings-link">
                 Painting's
             </a>
         </li>
 
         <li class="nav-item">
-            <a class="logo-font font-weight-bold nav-link text-white mr-5 text-larger" href="{% url 'products' %}" id="icons-link">
+            <a class="logo-font font-weight-bold nav-link text-white mr-5 text-larger" href="{% url 'products' %}?category=graphic_design" id="graphic_design-link">
                 Graphic Design's
             </a>
         </li>
 
         <li class="nav-item">
-            <a class="logo-font font-weight-bold nav-link text-white mr-5 text-larger" href="{% url 'products' %}" id="tools-link">
+            <a class="logo-font font-weight-bold nav-link text-white mr-5 text-larger" href="{% url 'products' %}?category=pixel_art" id="topixel_art-link">
                 Pixel Art
             </a>
         </li>
