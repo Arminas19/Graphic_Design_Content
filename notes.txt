@@ -19,3 +19,6 @@ old Font awesome:
 fas fa-search
 
 ToDo:
+
+potential bugs:
+1. Shopping bag bug: Project - Boutique Ado  The Shopping Bag  The Shopping Bag
