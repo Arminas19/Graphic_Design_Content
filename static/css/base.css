@@ -229,6 +229,10 @@ span.badge {
     color: #FFD700;
 }
 
+.decrement-qty {
+    width: 50px;
+}
+
 .btt-button {
     height: 42px;
     width: 42px;
