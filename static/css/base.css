@@ -138,6 +138,20 @@ body{
     background: #ffd900b4;
 }
 
+.btn-outline-blue {
+    background: #0095ff;
+    color: white !important; /* use important to override link colors for <a> elements */
+    border: 1px solid #0095ff;
+}
+
+.btn-outline-blue:hover,
+.btn-outline-blue:active,
+.btn-outline-blue:focus {
+    background: #FFD700;
+    color: white !important;
+    border: 1px solid #FFD700;
+}
+
 .shop-now-button:hover,
 .shop-now-button:active,
 .shop-now-button:focus,
