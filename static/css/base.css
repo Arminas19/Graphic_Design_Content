@@ -383,3 +383,9 @@ footer {
     }
 
 }
+
+@media (max-width: 510px) {
+    #keep-shooping-button {
+        margin-bottom: 30px;
+    }
+}
