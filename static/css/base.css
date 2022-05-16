@@ -233,6 +233,11 @@ span.badge {
     width: 50px;
 }
 
+.update-link,
+.remove-item {
+    cursor: pointer;
+}
+
 .btt-button {
     height: 42px;
     width: 42px;
