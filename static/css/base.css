@@ -10,6 +10,12 @@ body{
     font-family: 'Lato';
 }
 
+#map {
+    border: 3px solid #fff;
+    height: 500px;
+    width: 100%;
+}
+
 /* from Bulma */
 .icon {
     align-items: center;
@@ -172,6 +178,12 @@ body{
 	height: 105%;
 	width: 100%;
 	background: #ed6161;
+}
+
+.overlay-3 {
+	height: 110%;
+	width: 100%;
+	background: #33006F;
 }
 
 .all-products {
