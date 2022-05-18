@@ -99,6 +99,10 @@ body{
     background: #FFFAF0;
 }
 
+.bg-dark-yellow {
+    background: #FFD700;
+}
+
 .bg-yellow {
     background: #ffea00;
 }
@@ -131,6 +135,18 @@ body{
 
 .btn-black {
     background: black;
+    color: white;
+}
+
+.btn-black2 {
+    background: #FFD700;
+    color: white;
+}
+
+.btn-black2:hover,
+.btn-black2:active,
+.btn-black2:focus {
+    background: #e3c205;
     color: white;
 }
 
@@ -264,7 +280,7 @@ span.badge {
 }
 
 .toast-capper {
-    height: 2px;
+    height: 5px;
 }
 
 /* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
@@ -276,7 +292,7 @@ span.badge {
     border-bottom: 10px solid black;
     position: absolute;
     top: -10px;
-    right: 36px;
+    right: 149px;
 }
 
 /* Convenience classes - colors copied from Bootstrap */
