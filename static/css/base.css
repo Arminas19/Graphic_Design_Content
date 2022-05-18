@@ -250,6 +250,76 @@ span.badge {
     cursor: pointer;
 }
 
+/* Bootsrap Toasts CSS */
+
+.message-container {
+    position: fixed;
+    top: 72px;
+    right: 15px;
+    z-index: 99999999999;
+}
+
+.custom-toast {
+    overflow: visible;
+}
+
+.toast-capper {
+    height: 2px;
+}
+
+/* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
+.arrow-up {
+    width: 0; 
+    height: 0; 
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent; 
+    border-bottom: 10px solid black;
+    position: absolute;
+    top: -10px;
+    right: 36px;
+}
+
+/* Convenience classes - colors copied from Bootstrap */
+.arrow-primary {
+    border-bottom-color: #007bff !important;
+}
+
+.arrow-secondary {
+    border-bottom-color: #6c757d !important;
+}
+
+.arrow-success {
+    border-bottom-color: #28a745 !important;
+}
+
+.arrow-danger {
+    border-bottom-color: #dc3545 !important;
+}
+
+.arrow-warning {
+    border-bottom-color: #ffc107 !important;
+}
+
+.arrow-info {
+    border-bottom-color: #17a2b8 !important;
+}
+
+.arrow-light {
+    border-bottom-color: #f8f9fa !important;
+}
+
+.arrow-dark {
+    border-bottom-color: #343a40 !important;
+}
+
+.bag-notification-wrapper {
+    height: 100px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+/* End Bootstrap CSS */
+
 .btt-button {
     height: 42px;
     width: 42px;
@@ -351,7 +421,6 @@ footer {
     color: #ffd900b4;
     font-weight: 200;
 }
-/* -------------------------------- Media Queries */
 
 #sort-selector {
     color: #0095ff;
@@ -359,6 +428,7 @@ footer {
     border: 1px solid #0095ff;
 }
 
+/* -------------------------------- Media Queries */
 /* Slightly larger container on xl screens */
 @media (max-width: 1355px) {
  #main-header {
