@@ -18,6 +18,9 @@ Update your facebook business website-link to the deployed version.
 3. Kaggle.com
 I used Kaggle.com for the products images.
 
+4. Stripe
+export Stripe_public_key and stripe_secret_key each time you start your workspace.
+
 old Font awesome:
 fas fa-search
 
