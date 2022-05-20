@@ -76,6 +76,10 @@ body{
     color: #FFD700;
 }
 
+.text-warning {
+    color: #ffc107;
+}
+
 .text-black {
     color: #000;
 }
