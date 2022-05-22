@@ -19,6 +19,7 @@ Update your facebook business website-link to the deployed version.
 I used Kaggle.com for the products images.
 
 4. Stripe
+export STRIPE_WH_SECRET=whsec_3t7tcoEQvLn1SAhmivuH4ZOI8VeI8oE6
 export Stripe_public_key and stripe_secret_key each time you start your workspace.
 
 old Font awesome:
