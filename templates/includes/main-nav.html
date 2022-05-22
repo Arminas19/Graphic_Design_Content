@@ -2,7 +2,7 @@
     <ul class="navbar-nav w-auto mx-auto">
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-white mr-5 text-larger" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                All Products <i class="fa fa-arrow-down" aria-hidden="true"></i>
+                 <p class="hover-link"> All Products <i class="fa fa-arrow-down" aria-hidden="true"></i> </p>
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
                 <a href="{% url 'products' %}?category=paintings" class="dropdown-item text-white">Painting's</a>
@@ -14,25 +14,25 @@
 
         <li class="nav-item">
             <a class="logo-font font-weight-bold nav-link text-white mr-5 text-larger" href="{% url 'products' %}?category=paintings" id="paintings-link">
-                Painting's
+                <p class="hover-link">Painting's </p>
             </a>
         </li>
 
         <li class="nav-item">
             <a class="logo-font font-weight-bold nav-link text-white mr-5 text-larger" href="{% url 'products' %}?category=graphic_design" id="graphic_design-link">
-                Graphic Design's
+                <p class="hover-link"> Graphic Design's </p>
             </a>
         </li>
 
         <li class="nav-item">
             <a class="logo-font font-weight-bold nav-link text-white mr-5 text-larger" href="{% url 'products' %}?category=pixel_art" id="topixel_art-link">
-                Pixel Art
+                <p class="hover-link">Pixel Art </p>
             </a>
         </li>
 
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-white mr-5 text-larger" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-               Sort <i class="fa fa-arrow-down" aria-hidden="true"></i>
+               <p class="hover-link"> Sort <i class="fa fa-arrow-down" aria-hidden="true"></i> </p>
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
                 <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item text-white">By Price</a>

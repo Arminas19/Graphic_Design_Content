@@ -89,16 +89,16 @@
                     <li class="list-inline-item dropdown">
                         <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false">
-                            <div class="text-center">
-                                <div><i class="fas fa-user fa-lg text-white"></i></div>
-                                <p class="my-0 text-white">My Account <i class="fa fa-arrow-down"
-                                        aria-hidden="true"></i></p>
+                            <div class="text-center hover-link">
+                                <div> <strong class="hover-link"> <i class="fas fa-user fa-lg icon-white"></i> </strong> </div>
+                                <p class="my-0 text-white hover-link"> <strong class="hover-link">My Account <i class="fa fa-arrow-down"
+                                        aria-hidden="true"></i> </strong></p>
                             </div>
                         </a>
                         <div class="dropdown-menu border-0" aria-labelledby="user-options">
                             {% if request.user.is_authenticated %}
                             {% if request.user.is_superuser %}
-                            <a href="" class="dropdown-item text-white">Product Management</a>
+                            <a href="" class="dropdown-item text-white"> Product Management </a>
                             {% endif %}
                             <a href="{% url 'profile' %}" class="dropdown-item text-white">My Profile</a>
                             <a href="{% url 'account_logout' %}" class="dropdown-item text-white">Logout</a>
@@ -112,12 +112,12 @@
                         <a class="{% if grand_total %}text-warning font-weight-bold{% else %}text-white{% endif %} nav-link"
                             href="{% url 'view_bag' %}">
                             <div class="text-center">
-                                <div><i class="fas fa-shopping-bag fa-lg"></i></div>
+                                <div> <strong class="hover-link"> <i class="fa fa-shopping-bag fa-lg"></i> </strong> </div>
                                 <p class="my-0">
                                     {% if grand_total %}
                                     ${{ grand_total|floatformat:2 }}
                                     {% else %}
-                                    $0.00
+                                    <strong class="hover-link"> $0.00 </strong>
                                     {% endif %}
                                 </p>
                             </div>
@@ -126,8 +126,8 @@
                     <li class="list-inline-item dropdown">
                         <a class="text-black nav-link" href="{% url 'about' %}" id="user-options">
                             <div class="text-center">
-                                <div><i class="fa fa-users fa-lg text-white"></i></div>
-                                <p class="my-0 text-white">About Us</p>
+                                <div><i id="hover-icon" class="fas fa-users fa-lg icon-white"></i></div>
+                                <p class="my-0 text-white"> <strong class="hover-link"> About Us </strong> </p>
                             </div>
                         </a>
                     </li>

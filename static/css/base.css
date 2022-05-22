@@ -25,6 +25,10 @@ body{
     width: 1.5rem;
 }
 
+#main-header:hover {
+    color: #FFD700;
+}
+
 .main-logo-link {
     width: fit-content;
 }
@@ -39,6 +43,21 @@ body{
     margin: auto;
 }
 
+.hover-link:hover {
+    color: #FFD700;
+}
+
+#hover-icon:hover {
+    color: #FFD700;
+}
+
+.icon-white {
+    color: white;
+}
+
+.icon-white:hover {
+    color: #FFD700;
+}
 
 /* Font styling font-size e.g*/
 
