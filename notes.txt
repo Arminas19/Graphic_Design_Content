@@ -20,12 +20,16 @@ I used Kaggle.com for the products images.
 
 4. Stripe
 export STRIPE_WH_SECRET=whsec_3t7tcoEQvLn1SAhmivuH4ZOI8VeI8oE6
-export Stripe_public_key and stripe_secret_key each time you start your workspace.
+export STRIPE_PUBLIC_KEY=pk_test_51L1T57Cdp2ZLBHrhWYUBvoYmWBSullLfwoSTUEREVOJfj2aZ5KahWThpnvH21oloAHvi8iDBnLDsm2rYs4Y0o3Ek00Qf0iP68v
+export STRIPE_SECRET_KEY=sk_test_51L1T57Cdp2ZLBHrh1dlpTU4QIJpJ1APFnsr26auDqWKhDvaQ5SQ8F7ThTxvlqmeSTahBABTtDm4MyLwCw4ltS0i700i9x1dguo
+* export Stripe_public_key and stripe_secret_key each time you start your workspace.
 
 old Font awesome:
 fas fa-search
 
 ToDo:
+create a reviews and rating feature in the products_detail template and products views/models.
+finish following CI tutorials.
 
 potential bugs:
 1. Shopping bag bug: Project - Boutique Ado  The Shopping Bag  The Shopping Bag
