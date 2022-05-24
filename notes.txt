@@ -33,3 +33,4 @@ finish following CI tutorials.
 
 potential bugs:
 1. Shopping bag bug: Project - Boutique Ado  The Shopping Bag  The Shopping Bag
+2. "broken pipe" when printing email to the terminal from "Profile App - Part 10 / project"
