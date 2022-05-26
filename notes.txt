@@ -29,7 +29,7 @@ fas fa-search
 
 ToDo:
 create a reviews and rating feature in the products_detail template and products views/models.
-finish following CI tutorials.
+Shopping Bag Refactor.
 
 potential bugs:
 1. Shopping bag bug: Project - Boutique Ado  The Shopping Bag  The Shopping Bag
