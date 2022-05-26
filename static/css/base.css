@@ -77,6 +77,9 @@ body{
 }
 
 /* For styling colors e.g*/
+.border-blue {
+    border: 1px solid #007FFF;
+}
 
 .dropdown-item:hover {
     background-color: #6fb7ff;
@@ -115,7 +118,7 @@ body{
 }
 
 .text-blue{
-    color: #007FFF ;
+    color: #007FFF;
 }
 .bg-blue {
     background: #007FFF;
