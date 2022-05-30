@@ -109,6 +109,10 @@ body{
     color: #000;
 }
 
+.text-purple {
+    color: #512da8;
+}
+
 .text-red { 
     color: #e83b3b;
 }
@@ -580,7 +584,7 @@ footer {
 /* Showing the stars */
 .rate > label:before {
     display: inline-block;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     font-family: FontAwesome;
     content: "\f005";
     margin:0;
@@ -606,7 +610,7 @@ label:hover ~ input:checked ~ label {
     color: #cc9000;
 }
   
-/* .rating-star i {
+.rating-star i {
     color: #ffb503 !important;
 }
   
@@ -625,6 +629,14 @@ ul.thumb li img {
     width: 80px;
     height: 80px;
     border: 1px solid grey;
+}
+
+/* .all-reviews {
+    border: 1px solid #000;
+}
+
+.individula-reviews {
+    border: 1px solid #000;
 } */
 
 /* -------------------------------- Media Queries */

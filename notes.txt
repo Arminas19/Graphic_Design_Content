@@ -28,7 +28,7 @@ old Font awesome:
 fas fa-search
 
 ToDo:
-create a reviews and rating feature in the products_detail template and products views/models.
+fix the issues with the review buttons.
 
 potential bugs:
 1. Shopping bag bug: Project - Boutique Ado  The Shopping Bag  The Shopping Bag

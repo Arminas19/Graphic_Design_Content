@@ -60,9 +60,11 @@ def all_products(request):
 def product_detail(request, product_id):
     """ A view to show product detail. """
     product = get_object_or_404(Product, pk=product_id)
+    reviews = ReviewRating.objects.filter(product_id=product.id, status=True)
 
     context = {
         'product': product,
+        'reviews': reviews
     }
 
     return render(request, 'products/product_detail.html', context)
@@ -142,7 +144,7 @@ def add_review(request, product_id):
     url = request.META.get('HTTP_REFERER')
     if request.method == 'POST':
         try:
-            reviews = ReviewRating.objects.get(user__id=request.user.id, pk=product_id)
+            reviews = ReviewRating.objects.get(user__id=request.user.id, product__id=product_id)
             form = ReviewForm(request.POST, instance=reviews)
             form.save()
             messages.success(request, 'Thank you! Your review has been updated.')
