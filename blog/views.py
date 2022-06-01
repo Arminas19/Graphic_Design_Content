@@ -21,9 +21,8 @@ def all_blogs(request):
 @login_required
 def create_blog(request):
     """  Create blog """   
-    blogs = blog.objects.get(author__id=request.user.id)
     if request.method == 'POST':
-        form = BlogForm(request.POST, instance=blogs)
+        form = BlogForm(request.POST)
         if form.is_valid():
             form.save()
             messages.success(request, 'Successfully posted Bolg!')
