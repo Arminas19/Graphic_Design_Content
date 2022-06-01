@@ -151,9 +151,10 @@
                         <br>
                         {% if user.is_authenticated %}
                             {% if reviews %}
-                                <input type="submit" value="Submit Review" class="btn btn-outline-blue">
+                            <input type="submit" value="Update Review" class="btn btn-outline-blue">
+                            <a href="{% url 'delete_review' product.id %}" class="btn btn-danger btn-md " tabindex="-1" role="button">Delete Previous Review</a>
                             {% else %}
-                                <input type="submit" value="Update Review" class="btn btn-outline-blue">
+                            <input type="submit" value="Submit Review" class="btn btn-outline-blue">
                             {% endif %}
                         {% else %}
                         <p class="text-blue">You must be logged in to post a review. <span><a

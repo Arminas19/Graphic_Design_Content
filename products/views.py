@@ -161,3 +161,12 @@ def add_review(request, product_id):
                 data.save()
                 messages.success(request, 'Thank you! Your review has been submitted.')
                 return redirect(url)
+
+
+def delete_review(request, product_id):
+    """ Delete review """
+    url = request.META.get('HTTP_REFERER')
+    ReviewRating.objects.get(user__id=request.user.id, product__id=product_id).delete()
+    messages.success(request, 'Your review has been successfully Deleted!.')
+    return redirect(url)
+
