@@ -9,17 +9,20 @@
                 <h1 id="blog-header" class="logo-font text-white">Create Your Blog Post Here</h1>
                 <h2 id="blog-sub-header" class="text-white"> Why Should You Create A Blog Post? </h2>
                 <br>
-                <p id="blog-paragraph" class="text-white text-larger"> Continual delighted as elsewhere am convinced unfeeling. Introduced stimulated
-                    attachment no by projection. To loud lady whom my mile sold four. Need miss all four case fine age
-                    tell. He families my pleasant speaking it bringing it thoughts. View busy dine oh in knew if even.
-                    Boy these along far own other equal old fanny charm. Difficulty invitation put introduced see
-                    middletons nor preference.
+                <p id="blog-paragraph" class="text-white text-larger"> Want to share an experience with a product or
+                    talk about what you would like to see next on our products list? Then please write your suggestion
+                    or experience here!! If you are interested in what products we will release soon then please feel
+                    free to
+                    check out our <a id="social-media-link"
+                        href="https://www.facebook.com/Creative-Design-111148724932377" target="_blank">social media
+                        page </a> for more information about that. <br> Thank You.
                 </p>
                 <br>
                 <hr class="bg-ghostwhite">
                 <!-- Create blog button -->
                 <br>
-                <div> <a href="{% url 'create_blog' %}" class="shop-now-button btn btn-lg rounded-4 text-uppercase py-3">Create your blog
+                <div> <a href="{% url 'create_blog' %}"
+                        class="shop-now-button btn btn-lg rounded-4 text-uppercase py-3">Create your blog
                         post</a> </div>
             </div>
         </div>
@@ -41,15 +44,16 @@
                 <h2 class="blog-title text-uppercase">{{ blog.title }}</h2>
                 <p class="blog-author text-muted h6">By {{ blog.author }} | {{ blog.date_published |date:'D d M Y'}}</p>
                 <p> {{blog.intro}}... </p>
-                <a class="btn btn-warning read-more " data-toggle="collapse" href="#collapseExample-{{ forloop.counter }}"
-                    role="button" aria-expanded="false" aria-controls="collapseExample-{{ forloop.counter }}">
+                <a class="btn btn-warning read-more " data-toggle="collapse"
+                    href="#collapseExample-{{ forloop.counter }}" role="button" aria-expanded="false"
+                    aria-controls="collapseExample-{{ forloop.counter }}">
                     Read More &rarr;
                 </a>
                 <br>
                 <div class="collapse" id="collapseExample-{{ forloop.counter }}">
-                        <div class="read-more blog-body mx-auto">
-                            {{ blog.body }}
-                        </div>
+                    <div class="read-more blog-body mx-auto">
+                        {{ blog.body }}
+                    </div>
                 </div>
                 <a href="{{ blog.image.url }}">
                     <img class="card-img-top img-fluid blog-image" src="{{ blog.image.url }}"
