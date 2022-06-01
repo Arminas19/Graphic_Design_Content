@@ -23,7 +23,9 @@ def create_blog(request):
     """  Create blog """   
     if request.method == 'POST':
         form = BlogForm(request.POST)
+        model = blog()
         if form.is_valid():
+            model.author_id = request.user.id
             form.save()
             messages.success(request, 'Successfully posted Bolg!')
             return redirect(reverse('blogs'))
