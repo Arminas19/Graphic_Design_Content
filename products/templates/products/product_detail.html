@@ -150,15 +150,17 @@
                         <textarea name="review" rows="4" class="form-control"></textarea>
                         <br>
                         {% if user.is_authenticated %}
-                            {% if reviews %}
-                            <input type="submit" value="Update Review" class="btn btn-outline-blue">
-                            <a href="{% url 'delete_review' product.id %}" class="btn btn-danger btn-md " tabindex="-1" role="button">Delete Previous Review</a>
-                            {% else %}
-                            <input type="submit" value="Submit Review" class="btn btn-outline-blue">
-                            {% endif %}
+                        {% if reviews %}
+                        <input type="submit" value="Update Review" class="btn btn-outline-blue">
+                        <a href="{% url 'delete_review' product.id %}" class="btn btn-danger btn-md " tabindex="-1"
+                            role="button">Delete Previous Review</a>
+                        {% else %}
+                        <input type="submit" value="Submit Review" class="btn btn-outline-blue">
+                        {% endif %}
                         {% else %}
                         <p class="text-blue">You must be logged in to post a review. <span><a
-                                    href="{% url 'account_login' %}"> <strong class="text-info">Login now </strong></a></span></p>
+                                    href="{% url 'account_login' %}"> <strong class="text-info">Login now
+                                    </strong></a></span></p>
                         {% endif %}
 
                     </div>
@@ -173,6 +175,21 @@
                                 <header class="section-heading">
                                     <h1 class="rating">Customer Reviews </h1>
                                 </header>
+                                <div class="rating-star">
+                                    <span>
+                                        <i class="fa fa-star{% if product.rating < 0.5 %}-o{% elif product.rating >= 0.5 and product.rating < 1 %}-o {% endif %}"
+                                            aria-hidden="true"></i>
+                                        <i class="fa fa-star{% if product.rating < 1.5 %}-o{% elif product.rating >= 1.5 and product.rating < 2 %}-o {% endif %}"
+                                            aria-hidden="true"></i>
+                                        <i class="fa fa-star{% if product.rating < 2.5 %}-o{% elif product.rating >= 2.5 and product.rating < 3 %}-o {% endif %}"
+                                            aria-hidden="true"></i>
+                                        <i class="fa fa-star{% if product.rating < 3.5 %}-o{% elif product.rating >= 3.5 and product.rating < 4 %}-o {% endif %}"
+                                            aria-hidden="true"></i>
+                                        <i class="fa fa-star{% if product.rating < 4.5 %}-o{% elif product.rating >= 4.5 and product.rating < 5 %}-o {% endif %}"
+                                            aria-hidden="true"></i>
+                                        <span>{{product.rating}} reviews</span>
+                                    </span>
+                                </div>
                                 <br>
                                 <br>
                                 <br>
