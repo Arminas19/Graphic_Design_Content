@@ -5,6 +5,7 @@ from django.contrib.auth.models import User
 
 class blog(models.Model):
     title = models.CharField(max_length=150, null=False, blank=False)
+    intro = models.TextField(max_length=80, null=False, blank=False, default='Intro')
     body = models.TextField(max_length=2000, null=False, blank=False)
     image = models.ImageField(upload_to='blogimages', null=True, blank=True)
     date_published = models.DateTimeField(auto_now_add=True,
