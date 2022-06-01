@@ -42,6 +42,12 @@ body{
     min-width: 260px;
 }
 
+.post-button {
+    background: rgb(234, 58, 87);
+    color: white;
+    min-width: 100px;
+}
+
 #slogan {
     margin: auto;
 }
@@ -144,8 +150,16 @@ body{
     background: #0066b2;
 }
 
+.bg-orange {
+    background: rgb(247, 139, 24);
+}
+
 .bg-white {
     background: white;
+}
+
+.text-pink {
+    color: rgb(234, 58, 87);
 }
 
 .text-black {

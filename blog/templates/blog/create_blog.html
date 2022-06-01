@@ -2,21 +2,48 @@
 {% load static %}
 
 {% block page_header %}
-    <div class="container header-container">
-        <div class="row">
-           <div class="col">
-
-           </div>
-        </div>
-    </div>
 {% endblock %}
 
 {% block content %}
-    <div class="container header-container">
-        <div class="row">
-           <div class="col">
-               <h1> Create blog Works! </h1>
-           </div>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-7 offset-lg-1 mt-5">
+            <h1 class="text-pink text-center">ADD A BLOG POST</h1>
+            <hr class="bg-orange">
+            <form action="{% url 'create_blog' %}" method="POST">
+                {% csrf_token %}
+                <!-- Title -->
+                <div>
+                    <label class="text-pink" for="id_title">Title</label>
+                    <input class="form-control mb-4" type="text" name="title" id="id_title" placeholder="Title"
+                        autofocus required>
+                </div>
+                <!-- Intro -->
+                <div>
+                    <label class="text-pink" for="id_intro">Intro to your blog</label>
+                    <input class="form-control" rows="10" name="intro" id="id_intro"
+                        placeholder="Add a short intro for your blog" required></input>
+                </div>
+                <!-- Body -->
+                <div>
+                    <label class="text-pink" for="id_body">Add a blog post</label>
+                    <textarea class="form-control" rows="10" name="body" id="id_body"
+                        placeholder="Write your story here..." required></textarea>
+                </div>
+                <!-- Image -->
+                <div>
+                    <label for="id_image"></label>
+                    <p class="mb-1">Upload image</p>
+                    <input type="file" name="image" id="id_image" accept="image/*" required>
+                    <p>Preferred size: Min height 100px, max height 600px.</p>
+
+                <!-- Submit btn -->
+                    <button class="btn post-button mt-1 mb-4" type="submit">POST</button>
+                </div>
+            </form>
+            <!-- Back btn -->
+            <a href="{% url 'blogs' %}"><button class="btn btn-outline-blue mt-1 mb-4">Back to blog</button></a>      
         </div>
     </div>
+</div>
 {% endblock %}
