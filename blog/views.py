@@ -20,14 +20,15 @@ def all_blogs(request):
 
 @login_required
 def create_blog(request):
-    """  Create blog """   
+    """  Create blog """
     if request.method == 'POST':
-        form = BlogForm(request.POST)
-        model = blog()
+        form = BlogForm(request.POST, request.FILES)
         if form.is_valid():
-            model.author_id = request.user.id
+            obj = form.save(commit=False)
+            author = request.user
+            obj.author = author
             form.save()
-            messages.success(request, 'Successfully posted Bolg!')
+            messages.success(request, 'Successfully posted Bolg! returning to all blogs page')
             return redirect(reverse('blogs'))
         else:
             messages.error(request, 'Failed to post blog, please ensure the form is valid.')
@@ -39,4 +40,15 @@ def create_blog(request):
         'form': form,
     }
 
+    return render(request, template, context)
+
+
+def detailed_blog_view(request):
+    """ view selected blog """
+    post = get_object_or_404(blog, )
+
+    template = 'blog/detailed_blog.html'
+    context = { 
+        'post': post
+    }
     return render(request, template, context)

@@ -59,6 +59,11 @@
                     <img class="card-img-top img-fluid blog-image" src="{{ blog.image.url }}"
                         alt="Uploaded blog post image">
                 </a>
+                <br>
+                <a class="btn btn-warning read-more"
+                    href="{% url 'detailed_blog'%}" aria-controls="collapseExample-{{ forloop.counter }}">
+                    View Post
+                </a>
             </div>
         </div>
         <hr>

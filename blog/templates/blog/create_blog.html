@@ -10,7 +10,7 @@
         <div class="col-lg-7 offset-lg-1 mt-5">
             <h1 class="text-pink text-center">ADD A BLOG POST</h1>
             <hr class="bg-orange">
-            <form action="{% url 'create_blog' %}" method="POST">
+            <form action="{% url 'create_blog' %}" method="POST" enctype="multipart/form-data">
                 {% csrf_token %}
                 <!-- Title -->
                 <div>
