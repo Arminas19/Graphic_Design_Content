@@ -14,9 +14,45 @@
 {% block content %}
 <div class="container">
     <div class="row">
-       <div class="col-12">
-        <h1> Edit blog works! </h1>
-       </div>
+        <div class="col-lg-7 offset-lg-1 mt-5">
+            <h1 class="text-pink text-center">Edit Blog</h1>
+            <hr class="bg-orange">
+            <form action="{% url 'edit_post' post.id %}" method="POST" enctype="multipart/form-data">
+                {% csrf_token %}
+                <!-- {% for field in form %}
+                    {% if field.name != 'image' %}
+                        {{ field | as_crispy_field }}
+                    {% else %}
+                        {{ field }}
+                    {% endif %}
+                {% endfor %} -->
+                 <!-- Title -->
+                 <div>
+                    <label class="text-pink" for="id_title">Title</label>
+                    {{ form.title }}
+                </div>
+                <!-- Intro -->
+                <div>
+                    <label class="text-pink" for="id_intro">Intro to your blog</label>
+                    {{ form.intro }}
+                </div>
+                <!-- Body -->
+                <div>
+                    <label class="text-pink" for="id_body">Add a blog post</label>
+                    {{ form.body }}
+                </div>
+                <!-- Image -->
+                <div>
+                    {{ form.image | as_crispy_field }}
+                    <p class="text-pink">Preferred size: Min height 100px, max height 600px.</p>
+
+                <!-- Submit btn -->
+                    <button class="btn post-button mt-1 mb-4" type="submit">Update </button>
+                    <a href="{% url 'detailed_blog' post.id %}"><button class="btn btn-outline-blue mt-1 mb-4">Back to blog</button></a>      
+                </div>
+            </form>
+            <!-- Back btn -->
+        </div>
     </div>
 </div>
 {% endblock %}

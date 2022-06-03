@@ -59,12 +59,14 @@ def edit_post(request, post_id):
     post = get_object_or_404(blog, pk=post_id)
 
     if request.method == 'POST':
-        form = BlogForm(request.POST, instance=post)
+        form = BlogForm(request.POST, request.FILES, instance=post)
         if form.is_valid():
             form.save()
+            messages.success(request, 'Successfully Updated Post!')
             return redirect(reverse('blogs'))
     else:
         form = BlogForm(instance=post)
+        messages.error(request, 'failed to update post, make sure the form is valid.')
 
     template = 'blog/edit_blog.html'
     context = {
