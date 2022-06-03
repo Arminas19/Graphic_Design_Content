@@ -43,9 +43,9 @@ def create_blog(request):
     return render(request, template, context)
 
 
-def detailed_blog_view(request):
+def detailed_blog_view(request, blog_id):
     """ view selected blog """
-    post = get_object_or_404(blog, )
+    post = get_object_or_404(blog, pk=blog_id)
 
     template = 'blog/detailed_blog.html'
     context = { 

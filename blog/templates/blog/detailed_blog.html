@@ -2,46 +2,48 @@
 {% load static %}
 
 {% block page_header %}
-<div class="white-overlay2"> </div>
-<div class="header-container">
+<div class="pink-overlay"> </div>
+<div class="header-container blog-headline">
     <div class="col-lg-12">
-       
+        <h1 class="text-uppercase text-warning">{{ post.title }}</h1>
+        <p class="text-white">By {{ post.author }} | {{ post.date_published |date:'D d M Y'}}</p>
+        <br>
+        <br>
+        <br>
     </div>
-</div>    
+</div>
 {% endblock %}
 
 {% block content %}
-<div class="white-overlay2"> </div>
-<div class="container-fluid">
+<div class="container-fluid blog-headline">
     <div class="col-lg-12">
-        <div>
-            <div class="text-warning">
-                <h2 class="blog-title text-uppercase">{{ blog.title }}</h2>
-                <p class="blog-author text-muted h6">By {{ blog.author }} | {{ blog.date_published |date:'D d M Y'}}</p>
-                <p> {{blog.intro}}... </p>
-                <a class="btn btn-warning read-more " data-toggle="collapse"
-                    href="#collapseExample-{{ forloop.counter }}" role="button" aria-expanded="false"
-                    aria-controls="collapseExample-{{ forloop.counter }}">
-                    Read More &rarr;
-                </a>
-                <br>
-                <div class="collapse" id="collapseExample-{{ forloop.counter }}">
-                    <div class="read-more blog-body mx-auto">
-                        {{ blog.body }}
-                    </div>
-                </div>
-                <a href="{{ blog.image.url }}">
-                    <img class="card-img-top img-fluid blog-image" src="{{ blog.image.url }}"
-                        alt="Uploaded blog post image">
-                </a>
-                <br>
-                <a class="btn btn-warning read-more"
-                    href="{% url 'detailed_blog' %}" aria-controls="collapseExample-{{ forloop.counter }}">
-                    View Post
-                </a>
-            </div>
+        <h2 class="text-uppercase text-white">{{ post.intro }}</h2>
+        <div class="">
+            {% if post.image %}
+            <a href="{{ post.image.url }}" target="_blank">
+                <img class="card-img-top img-fluid blog-image" src="{{ post.image.url }}">
+            </a>
+            {% else %}
+            <a href="">
+                <img class="card-img-top img-fluid blog-image" src="{{ MEDIA_URL }}noimage.png">
+            </a>
+            {% endif %}
         </div>
-        
+        <h3 class=" mb-5 text-white">{{ post.body }}</h3>
+
     </div>
-</div>    
+
+    {%  if post.author != user %}
+
+    {% else %}
+        <a class="btn btn-outline-blue read-more" href=""
+            aria-controls="collapseExample-{{ forloop.counter }}">
+            Edit Post
+        </a>
+        <a class="btn btn-danger read-more" href=""
+            aria-controls="collapseExample-{{ forloop.counter }}">
+            Delete Post
+        </a>
+    {% endif %}
+</div>
 {% endblock %}

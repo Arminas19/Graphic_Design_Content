@@ -266,6 +266,16 @@ body{
 	z-index: -1;
 }
 
+.pink-overlay {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background:  #ed6161;
+	z-index: -1;
+}
+
 .white-overlay2 {
 	height: 100%;
 	width: 100%;

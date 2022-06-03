@@ -61,7 +61,7 @@
                 </a>
                 <br>
                 <a class="btn btn-warning read-more"
-                    href="{% url 'detailed_blog'%}" aria-controls="collapseExample-{{ forloop.counter }}">
+                    href="{% url 'detailed_blog' blog.id %}" aria-controls="collapseExample-{{ forloop.counter }}">
                     View Post
                 </a>
             </div>
