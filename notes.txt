@@ -28,7 +28,7 @@ old Font awesome:
 fas fa-search
 
 ToDo:
-Create blog posts.
+validate all my code.
 
 potential bugs:
 1. Shopping bag bug: Project - Boutique Ado  The Shopping Bag  The Shopping Bag

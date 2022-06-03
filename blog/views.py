@@ -28,7 +28,7 @@ def create_blog(request):
             author = request.user
             obj.author = author
             form.save()
-            messages.success(request, 'Successfully posted Bolg! returning to all blogs page')
+            messages.success(request, 'Successfully posted blog! returning to all blogs page')
             return redirect(reverse('blogs'))
         else:
             messages.error(request, 'Failed to post blog, please ensure the form is valid.')
@@ -66,7 +66,6 @@ def edit_post(request, post_id):
             return redirect(reverse('blogs'))
     else:
         form = BlogForm(instance=post)
-        messages.error(request, 'failed to update post, make sure the form is valid.')
 
     template = 'blog/edit_blog.html'
     context = {
