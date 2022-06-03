@@ -40,7 +40,7 @@
             aria-controls="collapseExample-{{ forloop.counter }}">
             Edit Post
         </a>
-        <a class="btn btn-danger read-more" href=""
+        <a class="btn btn-danger read-more" href="{% url 'delete_post' post.id %}"
             aria-controls="collapseExample-{{ forloop.counter }}">
             Delete Post
         </a>

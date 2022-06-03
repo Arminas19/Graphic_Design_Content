@@ -48,7 +48,14 @@ def detailed_blog_view(request, blog_id):
     post = get_object_or_404(blog, pk=blog_id)
 
     template = 'blog/detailed_blog.html'
-    context = { 
+    context = {
         'post': post
     }
     return render(request, template, context)
+
+
+def delete_post(request, post_id):
+    """ Deletes blog post. """
+    get_object_or_404(blog, pk=post_id).delete()
+    messages.success(request, 'Your blog post has been successfully Deleted!.')
+    return redirect(reverse('blogs'))
