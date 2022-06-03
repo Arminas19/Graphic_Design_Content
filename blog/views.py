@@ -54,6 +54,26 @@ def detailed_blog_view(request, blog_id):
     return render(request, template, context)
 
 
+def edit_post(request, post_id):
+    """ edit blog post. """
+    post = get_object_or_404(blog, pk=post_id)
+
+    if request.method == 'POST':
+        form = BlogForm(request.POST, instance=post)
+        if form.is_valid():
+            form.save()
+            return redirect(reverse('blogs'))
+    else:
+        form = BlogForm(instance=post)
+
+    template = 'blog/edit_blog.html'
+    context = {
+        'form': form,
+        'post': post,
+    }
+    return render(request, template, context)
+
+
 def delete_post(request, post_id):
     """ Deletes blog post. """
     get_object_or_404(blog, pk=post_id).delete()
