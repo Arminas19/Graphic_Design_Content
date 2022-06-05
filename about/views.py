@@ -4,6 +4,7 @@ from django.urls import reverse_lazy, reverse
 from .models import Contact
 # Create your views here.
 
+
 def about_content(request):
     """ A view to return the About page. """
     if request.method == 'POST':
@@ -13,7 +14,6 @@ def about_content(request):
         email = request.POST.get('email')
         subject = request.POST.get('subject')
         message = request.POST.get('message')
-        
         contact.full_name = full_name
         contact.email = email
         contact.subject = subject

@@ -34,7 +34,6 @@ def create_blog(request):
             messages.error(request, 'Failed to post blog, please ensure the form is valid.')
     else:
         form = BlogForm()
-        
     template = 'blog/create_blog.html'
     context = {
         'form': form,

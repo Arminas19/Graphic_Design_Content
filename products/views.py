@@ -7,6 +7,7 @@ from .models import Product, Category, ReviewRating
 from .forms import ProductForm, ReviewForm
 # Create your views here.
 
+
 def all_products(request):
     """ A view to return the products page. """
     products = Product.objects.all()
@@ -34,8 +35,6 @@ def all_products(request):
             categories = request.GET['category'].split(',')
             products = products.filter(category__name__in=categories)
             categories = Category.objects.filter(name__in=categories)
-
-
         if 'q' in request.GET:
             query = request.GET['q']
             if not query:
@@ -86,8 +85,7 @@ def add_product(request):
         else:
             messages.error(request, 'Failed to add product, please ensure the form is valid.')
     else:
-        form = ProductForm()
-        
+        form = ProductForm()        
     template = 'products/add_product.html'
     context = {
         'form': form,
@@ -131,7 +129,6 @@ def delete_product(request, product_id):
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('home'))
-        
     product = get_object_or_404(Product, pk=product_id)
     product.delete()
     messages.success(request, 'Product deleted!')
@@ -169,4 +166,3 @@ def delete_review(request, product_id):
     ReviewRating.objects.get(user__id=request.user.id, product__id=product_id).delete()
     messages.success(request, 'Your review has been successfully Deleted!.')
     return redirect(url)
-
