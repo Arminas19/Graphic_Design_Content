@@ -28,11 +28,10 @@ old Font awesome:
 fas fa-search
 
 ToDo:
-validate all my code.
+Deployment.
 
 
-potential bugs:
-
+Deployment:
 
 HTML validataions:
 - home is validated 
@@ -51,3 +50,7 @@ CSS validataions:
 JavaScript validataions:
  - stripe_elements.js is validated (2 ES6 errors - use esversion: 6)
  - countryfield.js is validated (had to change my let to var because of not having esversion 6)
+
+
+updated my iterations, project and issues.
+Deleted all commented code that wasnt's being used.
