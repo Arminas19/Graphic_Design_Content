@@ -21,11 +21,11 @@
         <div class="">
             {% if post.image %}
             <a href="{{ post.image.url }}" target="_blank">
-                <img class="card-img-top img-fluid blog-image" src="{{ post.image.url }}">
+                <img class="card-img-top img-fluid blog-image" src="{{ post.image.url }}" alt="blog-image">
             </a>
             {% else %}
             <a href="">
-                <img class="card-img-top img-fluid blog-image" src="{{ MEDIA_URL }}noimage.png">
+                <img class="card-img-top img-fluid blog-image" src="{{ MEDIA_URL }}noimage.png" alt="no-blog-image">
             </a>
             {% endif %}
         </div>
@@ -37,11 +37,11 @@
 
     {% else %}
         <a class="btn btn-outline-blue read-more" href="{% url 'edit_post' post.id %}"
-            aria-controls="collapseExample-{{ forloop.counter }}">
+            >
             Edit Post
         </a>
         <a class="btn btn-danger read-more" href="{% url 'delete_post' post.id %}"
-            aria-controls="collapseExample-{{ forloop.counter }}">
+            >
             Delete Post
         </a>
     {% endif %}

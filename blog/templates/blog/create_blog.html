@@ -21,8 +21,8 @@
                 <!-- Intro -->
                 <div>
                     <label class="text-pink" for="id_intro">Intro to your blog</label>
-                    <input class="form-control" rows="10" name="intro" id="id_intro"
-                        placeholder="Add a short intro for your blog" required></input>
+                    <input class="form-control" name="intro" id="id_intro"
+                        placeholder="Add a short intro for your blog" required>
                 </div>
                 <!-- Body -->
                 <div>
@@ -42,7 +42,7 @@
                 </div>
             </form>
             <!-- Back btn -->
-            <a href="{% url 'blogs' %}"><button class="btn btn-outline-blue mt-1 mb-4">Back to blog</button></a>      
+            <a href="{% url 'blogs' %}" class="btn btn-outline-blue mt-1 mb-4">Back to blog</a>      
         </div>
     </div>
 </div>

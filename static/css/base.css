@@ -378,7 +378,7 @@ span.badge {
     padding: .375rem .75rem;
     font-size: 1rem;
     line-height: 1.5;
-    border-radius: 4;
+    border-radius: 0;
 
     /* standard bootstrap btn transitions */
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
@@ -466,7 +466,7 @@ input[name='q']::placeholder {
 }
 
 .border-blue {
-    background: 1px solid #0095ff;
+    border: 1px solid #0095ff;
 }
 
 /* textarea */
@@ -558,7 +558,6 @@ footer {
 
 .socials a i {
     font-size: 1.7rem;
-    transition: color .4 ease;
 }
 
 .socials a:hover i {

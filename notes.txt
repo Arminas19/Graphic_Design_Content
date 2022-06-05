@@ -30,6 +30,24 @@ fas fa-search
 ToDo:
 validate all my code.
 
+
 potential bugs:
-1. Shopping bag bug: Project - Boutique Ado  The Shopping Bag  The Shopping Bag
-2. "broken pipe" when printing email to the terminal from "Profile App - Part 10 / project"
+
+
+HTML validataions:
+- home is validated 
+- about is validated
+- profiles is validated
+- checkout is validated
+- product is validated, 2 errors in custom_clearable_file_input.html
+- bag is validated, 5 duplicated id's (5 errors).
+- blog is validated
+
+CSS validataions:
+- base.css is validated
+- profile.css is validated
+- checlout.css is validated
+
+JavaScript validataions:
+ - stripe_elements.js is validated (2 ES6 errors - use esversion: 6)
+ - countryfield.js is validated (had to change my let to var because of not having esversion 6)
