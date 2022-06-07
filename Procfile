@@ -1,0 +1,1 @@
+web gunicorn Creative_design.wsgi:application
