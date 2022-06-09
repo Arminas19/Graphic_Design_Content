@@ -9,11 +9,9 @@ hard refreshing key:
 CTRL-SHIFT-R 
 
 Dont Forget List:
-1. Sending Emails:
-Once deployed to Heroku, the sending of actual emails will become a possibility, so please wait until then before attempting it.
+web marketing - GDPR Considerations 
+Introduction to Search Engine Optimization
 
-2. Facebook website Link:
-Update your facebook business website-link to the deployed version.
 
 3. Kaggle.com
 I used Kaggle.com for the products images.
