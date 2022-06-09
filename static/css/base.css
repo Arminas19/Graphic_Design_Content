@@ -209,7 +209,7 @@ body{
 
 .btn-outline-blue {
     background: #0095ff;
-    color: white !important; /* use important to override link colors for <a> elements */
+    color: white !important;
     border: 1px solid #0095ff;
 }
 
@@ -677,10 +677,6 @@ ul.thumb li img {
 	margin-bottom: 20px;
 	margin-top: 0px;
 	text-align: center;
-}
-
-.blog-title {
-	
 }
 
 .blog-body {
