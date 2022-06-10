@@ -9,6 +9,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Shop for exclusive Art's at the Creative Design website, we sell paintings, graphic designs and pixel art content.
+                                        Use our blog page to write about your experince using our many products.">
+    <meta name="keywords"
+        content="Creative, CreativeDesign, Graphic-Designs, Art, Pixel Art, painting's, blog page, products, shopping, CreativeDesignTeam.">
     {% endblock %}
 
     {% block extra_meta %}
@@ -28,7 +32,7 @@
     <!-- Mailchimp css -->
     <style>
         #mc_embed_signup {
-            background:  #fff;
+            background: #fff;
             clear: left;
             font: 14px Helvetica, Arial, sans-serif;
             width: auto;
@@ -40,7 +44,8 @@
     {% block corejs %}
     <script src="https://kit.fontawesome.com/35936358ad.js" crossorigin="anonymous"></script>
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
     </script>
@@ -85,12 +90,13 @@
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                 <ul class="list-inline list-unstyled text-center text-lg-right my-0">
                     <li class="list-inline-item dropdown">
-                        <a class="text-black nav-link" href="#" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
+                        <a class="text-black nav-link" href="#" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
                             <div class="text-center hover-link">
-                                <div> <strong class="hover-link"> <i class="fas fa-user fa-lg icon-white"></i> </strong> </div>
-                                <p class="my-0 text-white hover-link"> <strong class="hover-link">My Account <i class="fa fa-arrow-down"
-                                        aria-hidden="true"></i> </strong></p>
+                                <div> <strong class="hover-link"> <i class="fas fa-user fa-lg icon-white"></i> </strong>
+                                </div>
+                                <p class="my-0 text-white hover-link"> <strong class="hover-link">My Account <i
+                                            class="fa fa-arrow-down" aria-hidden="true"></i> </strong></p>
                             </div>
                         </a>
                         <div class="dropdown-menu border-0">
@@ -110,7 +116,8 @@
                         <a class="{% if grand_total %}text-warning font-weight-bold{% else %}text-white{% endif %} nav-link"
                             href="{% url 'view_bag' %}">
                             <div class="text-center">
-                                <div> <strong class="hover-link"> <i class="fa fa-shopping-bag fa-lg"></i> </strong> </div>
+                                <div> <strong class="hover-link"> <i class="fa fa-shopping-bag fa-lg"></i> </strong>
+                                </div>
                                 <p class="my-0">
                                     {% if grand_total %}
                                     ${{ grand_total|floatformat:2 }}
@@ -164,17 +171,17 @@
     {% if messages %}
     <div class="message-container">
         {% for message in messages %}
-            {% with message.level as level %}
-                {% if level == 40 %}
-                    {% include 'includes/toasts/toast_error.html' %}
-                {% elif level == 30 %}
-                    {% include 'includes/toasts/toast_warning.html' %}
-                {% elif level == 25 %}
-                    {% include 'includes/toasts/toast_success.html' %}
-                {% else %}
-                    {% include 'includes/toasts/toast_info.html' %}
-                {% endif %}
-            {% endwith %}
+        {% with message.level as level %}
+        {% if level == 40 %}
+        {% include 'includes/toasts/toast_error.html' %}
+        {% elif level == 30 %}
+        {% include 'includes/toasts/toast_warning.html' %}
+        {% elif level == 25 %}
+        {% include 'includes/toasts/toast_success.html' %}
+        {% else %}
+        {% include 'includes/toasts/toast_info.html' %}
+        {% endif %}
+        {% endwith %}
         {% endfor %}
     </div>
     {% endif %}
@@ -191,12 +198,17 @@
             <p> Check out our social media sites for more post's about what we are doing next and what kind of projects
                 we are up too!! </p>
             <ul class="socials ">
-                <li> <a href="https://www.facebook.com/Creative-Design-111148724932377" target="_blank" rel="noopener"><i class="fa fa-facebook"></i></a>
+                <li> <a href="https://www.facebook.com/Creative-Design-111148724932377" target="_blank"
+                        rel="noopener"><i class="fa fa-facebook"></i></a>
                 </li>
-                <li> <a href="https://twitter.com/" target="_blank" rel="noopener"><i class="fa fa-twitter"></i> </a></li>
-                <li> <a href="https://plus.google.com/" target="_blank" rel="noopener"><i class="fa fa-google-plus"></i> </a></li>
-                <li> <a href="https://www.youtube.com/" target="_blank" rel="noopener"><i class="fa fa-youtube"></i> </a></li>
-                <li> <a href="https://www.instagram.com/" target="_blank" rel="noopener"><i class="fa fa-instagram"></i> </a></li>
+                <li> <a href="https://twitter.com/" target="_blank" rel="noopener"><i class="fa fa-twitter"></i> </a>
+                </li>
+                <li> <a href="https://plus.google.com/" target="_blank" rel="noopener"><i class="fa fa-google-plus"></i>
+                    </a></li>
+                <li> <a href="https://www.youtube.com/" target="_blank" rel="noopener"><i class="fa fa-youtube"></i>
+                    </a></li>
+                <li> <a href="https://www.instagram.com/" target="_blank" rel="noopener"><i class="fa fa-instagram"></i>
+                    </a></li>
             </ul>
         </div>
         <div class="footer-bottom">
