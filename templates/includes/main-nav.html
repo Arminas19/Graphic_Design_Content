@@ -36,15 +36,5 @@
                 <p class="hover-link">Pixel Art </p>
             </a>
         </li>
-
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-white mr-5 text-larger" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-               <p class="hover-link"> Sort <i class="fa fa-arrow-down" aria-hidden="true"></i> </p>
-            </a>
-            <div class="dropdown-menu border-0">
-                <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item text-white">By Price</a>
-                <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item text-white">Rating</a>
-            </div>
-        </li>
     </ul>
 </div>
