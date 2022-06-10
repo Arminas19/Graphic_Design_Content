@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: https://graphic-design-project.herokuapp.com/sitemap.xml
