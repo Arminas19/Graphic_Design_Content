@@ -9,8 +9,7 @@ hard refreshing key:
 CTRL-SHIFT-R 
 
 Dont Forget List:
-web marketing - GDPR Considerations 
-Introduction to Search Engine Optimization
+README.md page
 
 
 3. Kaggle.com
@@ -21,15 +20,6 @@ export STRIPE_WH_SECRET=whsec_3t7tcoEQvLn1SAhmivuH4ZOI8VeI8oE6
 export STRIPE_PUBLIC_KEY=pk_test_51L1T57Cdp2ZLBHrhWYUBvoYmWBSullLfwoSTUEREVOJfj2aZ5KahWThpnvH21oloAHvi8iDBnLDsm2rYs4Y0o3Ek00Qf0iP68v
 export STRIPE_SECRET_KEY=sk_test_51L1T57Cdp2ZLBHrh1dlpTU4QIJpJ1APFnsr26auDqWKhDvaQ5SQ8F7ThTxvlqmeSTahBABTtDm4MyLwCw4ltS0i700i9x1dguo
 * export Stripe_public_key and stripe_secret_key each time you start your workspace.
-
-old Font awesome:
-fas fa-search
-
-ToDo:
-Deployment.
-
-
-Deployment:
 
 HTML validataions:
 - home is validated 
@@ -57,6 +47,3 @@ python validataions:
 - home view validated
 - products view validated ( 7 line too long errors and 1 trailing whitespace errors)
 - profiles view validated ( 2 line too long errors and 2 trailing whitespace errors)
-
-updated my iterations, project and issues.
-Deleted all commented code that wasnt's being used.
