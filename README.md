@@ -153,6 +153,7 @@ Code Institutes criteria checklist has been used to check requirements.
   + Bag page quantity button doesn't work properly so I had to remove them when on a larger screen size.
 
 * Known Issues:
+  + All my product descriptions have been deleted since I didn't add them into the fixtures file before uploading them into Heroku and all the names of the products have been re-set to their defaults.
   + product images that where imported using fixtures are not the same size's. 
   + Toast's sometimes aren't aligned properly when on smaller or bigger screen sizes. 
   + Customer reviews aren't product reviews. The review on the product on the products page isn't affected by the customer's reviews (the review of the product is fixed by the admin).
