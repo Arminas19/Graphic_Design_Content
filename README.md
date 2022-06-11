@@ -17,7 +17,7 @@
 
 * Before starting my project I thought about how I am going to structure and design my project. The first step I took was to create a diagram on my notes book (a basic sketch of what the website would look like).
 
-* Im chosing the colors of yellow with a tint of orange and blue with dark blue tints and white for the font because i think those are good colors and go well together.
+* Im chosing the colors of blue and yellow with a tint of dark colors and mixture of bright colors and white for the font because i think those are good colors and go well together.
 
 * I wrote some notes down on what I needed to add to my project so that I won't forget later.
 
@@ -28,4 +28,135 @@
 ![InVision website](media/inVision.png)
 ![Closer look into the Invision Diagrams](media/Invision_pages.png)
 ***
-## Introduction To My Website
+
+
+# Introduction To My Website
+
+![Creative Design website landing page](media/CreativeDesign.png)
+
+ Creative Design was created for my 5th propject with Code Institute's Full Stack Software Development course.
+ Creative Design is a platform for a customer to purchase our products which the can blog about in our blog page or they can also use the contact form if they find any issues with our products in the about page. The customer can also review the product if they have logged in.
+<br>
+
+ ## Development Of My Website
+My strategy for this project was to use what I already know and use the skills that I learned from my previous project with the Boutique Ado E-Commerce Application. I also remembered the mistakes that I did in my previous project and this time i prepared for them properly which helped me finish this project on schedule.
+
+## Website Content & Fetures 
+<strong> Base Template </strong>
+<br>
+My base.html contains the footer element and the header/nav elements, they's elements are used for every single page on my website. The header/nav elements contain most of the navigation done on this website and it help's the user to get around my website effectively. The footer content contains link's to my social media pages and it also contains the Privacy Policy for my website. The core CSS and JS scripts and links are also attached to my base.html template.  
+
+<strong> About Template </strong>
+<br>
+The About Me page is where I have a contact form in case the customer wanted to write a complaint or if they wanted to send some kind of message regarding the website. The About page also has a newsletter subscription form created by MailChimp and a few paragraphs about the company's team and what we do.   
+
+<strong> Blog Template </strong>
+<br>
+The Blog page is for customers who want to talk to the broder community, they can talk about what new products the want to see or if they just want to talk about a certain product that is already on the website store. The User of the blog's page is able to create a blog page, delete their blog post or edit and update there blog post.     
+
+<strong> Product's Template </strong>
+<br>
+The product's template is used as the store of this website, it contains all of the products that I got from Kaggle.com, which include pixel art, paintings, and graphic designs. When you enter the products page you will see a sorting tab that can sort the products into A-Z, Z-A, low/high price range, and low/high ratings. This feature is very useful for the customer and without that the store could be annoying to navigate through. You can press on the product that you would like to look at, you will be able to see the description and size of the product and a button that allows the customer to place it in the bag, you are also able to select a quantity of that product. The customer can also create a review for that product if they have logged in, the user can delete that product on the review form and they can update that review by creating a new review for that product (it will automatically update the previous review that was made before but if a review was never made it will just create a new review).   
+
+<strong> Bag Template </strong>
+<br>
+The Bag template is used to review your selected products, you can update the quantity or remove the product from the bag.  
+
+
+<strong> Checkout Template </strong>
+<br>
+Once the bag template has been reviewed by the customer the customer will press the secure checkout button which will redirect them to the checkout page where the customer will enter their details and be redirected to the checkout success page once they have completed the checkout form.  
+
+<strong> profile Template </strong>
+<br>
+The profile page is used only by the customer, it is a way for a customer to set up their billing details and also to save their details for another time that they may buy with us. once a customer buys a product their billing details get automatically saved on their profile page and the next time they buy with us they won't have to re-enter their billing details on the checkout page. 
+
+<strong> Toasts </strong>
+<br>
+Their are loads of alert's that the customer might get when they use this site, their are 4 types of alerts, success alerts, error alerts, info alerts and warning alerts. Theys alerts are used all over the website.
+
+## Technologies Used
+  + HTML
+  + CSS
+  + JavaScript
+  + Python
+  + Pip3- install packages to python
+  + Git- version control
+  + GitHub- host project files
+  + Gitpod- coding enviroment
+  + Django- main framework for project
+  + Heroku- cloud platform
+  + Django Crispy forms- displays forms
+  + Stripe - used as secure payement system
+  + AWS - Used to store static files
+  + Bootstrap - Used for responsiveness
+  + Font Awesome - Used for icons such as footer
+
+<br>
+<h1> Testing </h1>
+<h2> Validations </h2>
+Creative Design website has been tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers (viewed at different desktop, laptop, tablet and mobile).
+
+All links, required fields, buttons, sorting function, forms, blog posts, all drop-down menus, product display, product detail and search bar work as expected.
+
+App has been reviewed also by friends and family.
+
+Code Institutes criteria checklist has been used to check requirements.
+
+<strong> HTML Validations </strong>
+<ul>
+   <li> Home page is Validated </li>
+   <li> About page is Validated </li>
+   <li> Profiles page is Validated </li>
+   <li> Checkout page is Validated </li>
+   <li> Product page is Validated </li>
+   <li> Blog page is Validated </li>
+   <li> custom_clearable_file_input.html has 2 errors </li>
+   <li> Bag page has 5 duplicated id's (5 errors) </li>
+</ul>
+<br>
+<strong> CSS Validations </strong>
+<ul>
+   <li> Base.css is Validated </li>
+   <li> Profile.css is Validated </li>
+   <li> Checkout.css is Validated </li>
+</ul>
+<br>
+<strong> JavaScript Validations </strong>
+<ul>
+   <li> stripe_elements.js has 2 ES6 errors  (use esversion: 6) </li>
+   <li> countryfield.js is validated (had to change my let to var because of not having esversion 6)</li>
+</ul>
+<br>
+<strong> Python Validations </strong>
+<ul>
+   <li> About View is Validated</li>
+   <li> Bag View has 9 line too long errors </li>
+   <li> Blog View has 2 line too long errors </li>
+   <li> Checkout View has 6 line too long errors </li>
+   <li> Home View is Validated </li>
+   <li> products view has 7 line too long errors and 1 trailing whitespace errors </li>
+   <li> profiles view has 2 line too long errors and 2 trailing whitespace errors </li>
+</ul>
+
+## Google Lighthouse
+* Results For: 
+  + home page - 95 Performance, 94 Accessibility, 75 Best Practices, 100 SEO
+  + about page - 79 Performance, 95 Accessibility, 83 Best Practices, 100 SEO
+  + blog page - 73 Performance, 93 Accessibility, 67 Best Practices, 100 SEO
+  + products page - 78 Performance, 95 Accessibility, 75 Best Practices, 90 SEO
+  + bag page - 65 Performance, 75 Accessibility, 75 Best Practices, 90 SEO
+  + checkout page - 60 Performance, 96 Accessibility, 75 Best Practices, 100 SEO
+
+## Bugs & Issues
+* Known Bugs:
+  + Bag page quantity button doesn't work properly so I had to remove them when on a larger screen size.
+
+* Known Issues:
+  + product images that where imported using fixtures are not the same size's. 
+  + Toast's sometimes aren't aligned properly when on smaller or bigger screen sizes. 
+  + Customer reviews aren't product reviews. The review on the product on the products page isn't affected by the customer's reviews (the review of the product is fixed by the admin).
+  + The select image field in the create blog page is not yet customized.   
+<br>
+
+# Deployment
