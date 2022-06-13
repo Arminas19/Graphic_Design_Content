@@ -28,7 +28,7 @@
 ![InVision website](media/inVision.png)
 ![Closer look into the Invision Diagrams](media/Invision_pages.png)
 ***
-<br>
+
 
 # Introduction To My Website
 
