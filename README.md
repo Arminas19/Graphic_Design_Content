@@ -28,7 +28,8 @@
 ![InVision website](media/inVision.png)
 ![Closer look into the Invision Diagrams](media/Invision_pages.png)
 ***
-
+<br>
+<br>
 
 # Introduction To My Website
 
@@ -161,3 +162,43 @@ Code Institutes criteria checklist has been used to check requirements.
 <br>
 
 # Deployment
+* Github repo - https://github.com/Arminas19/Graphic_Design_Content
+* Heroku app - https://graphic-design-project.herokuapp.com/
+<br>
+<br>
+
+<strong> Steps I took for Deploying my website on to Heroku </strong>
+
+I first had to install a few extentions for my project using the command 'pip' than i froze the requirements in the requirements.txt file, Connected my github repo to the heroku app (which i created before starting the deployment process), i added the free Postgres DB and i added Config Vars so that the live site would work as intended, i added a Procfile so that heroku would know which files are apps and which one is the project directory. I modified the settings.py file and than i had to create a new superuser and load the products fixture data to the new database. I modified the settings.py file again adding in the stripe environment variables and later adding in the email environment variables to the settings.py file as well. 
+<br>
+<br>
+
+<strong> Amazon Web Services </strong>
+
+Amazon Web Services(AWS) is used for all static and media files that your live site might have. AWS host's your static and media files in a S3 bucket which you have to set up yourself first.   
+
+You will need to install a few extensions in your terminal first using the command 'pip' and then freeze them in the requirements.txt file. The second step would be to go to the settings.py file and add some Bucket Config vars to your settings also you will need to set the root for your media and static files using the custom_storages.py file and then you will need to override the URLs for those static and media files so that they would be used in production. the last step would be to delete the disable-static var from Heroku and commit your final code and push it to Heroku. 
+
+## Credits
+*** 
+<h2> Images </h2>
+I got my products images from the website Kaggle.com
+I got my Logo from shopify.com at https://hatchful.shopify.com/
+i got my background image from google images. 
+
+<h2> Code </h2>
+Stack Overflow - I checked Stack Overflow when i got stuck on a problem.
+Code Instite - I used some of the code from the Boutique Ado E-commerce website.
+Bootstrap - I used bootstrap's code
+Youtube - I watched tutorials which helped me get a better understanding on Django.
+I reviewed my previous project(4th project) and figured out what worked and what didn't, so I had a clearer vision of how am I going to use my Django skills to finish this project.
+
+<h2> Help </h2>
+I got help from the Code Institute's tutor assistance team on a few problems that I couldn't solve myself.
+I got help from my mentor Sandeep who reviewed my website.
+<br>
+<br>
+
+## Resolution Sizes
+
+<strong> Fully responsive sizes. </strong>

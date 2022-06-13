@@ -8,11 +8,6 @@ CTRL-SHIFT-R
 Dont Forget List:
 Example blog 
 update product header font size
-README.md page
-
-
-3. Kaggle.com
-I used Kaggle.com for the products images.
 
 4. Stripe
 export STRIPE_WH_SECRET=whsec_3t7tcoEQvLn1SAhmivuH4ZOI8VeI8oE6
