@@ -29,7 +29,6 @@
 ![Closer look into the Invision Diagrams](media/Invision_pages.png)
 ***
 <br>
-<br>
 
 # Introduction To My Website
 
@@ -180,7 +179,7 @@ Amazon Web Services(AWS) is used for all static and media files that your live s
 You will need to install a few extensions in your terminal first using the command 'pip' and then freeze them in the requirements.txt file. The second step would be to go to the settings.py file and add some Bucket Config vars to your settings also you will need to set the root for your media and static files using the custom_storages.py file and then you will need to override the URLs for those static and media files so that they would be used in production. the last step would be to delete the disable-static var from Heroku and commit your final code and push it to Heroku. 
 
 ## Credits
-*** 
+
 <h2> Images </h2>
 I got my products images from the website Kaggle.com
 I got my Logo from shopify.com at https://hatchful.shopify.com/
