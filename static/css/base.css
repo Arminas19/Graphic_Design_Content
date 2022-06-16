@@ -844,8 +844,16 @@ ul.thumb li img {
     }
 
     #all-products {
-        font-size: 22px;
-        text-transform: uppercase;
-        color: #007FFF ;
+        color: #0095ff;
+        font-size: 50px;
+        font-weight: 1000;
+        letter-spacing: 4px;
+    }
+
+    .all-products {
+        color: #0095ff;
+        font-size: 50px;
+        font-weight: 1000;
+        letter-spacing: 4px;
     }
 }
