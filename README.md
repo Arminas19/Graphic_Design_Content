@@ -160,6 +160,10 @@ Code Institutes criteria checklist has been used to check requirements.
   + The select image field in the create blog page is not yet customized.   
 <br>
 
+## Fixed Bugs & Issues
+ * Fixed Issues: 
+  + The product's name and descriptions have been re-made using the admin panel.
+
 # Deployment
 * Github repo - https://github.com/Arminas19/Graphic_Design_Content
 * Heroku app - https://graphic-design-project.herokuapp.com/
