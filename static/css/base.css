@@ -475,12 +475,6 @@ input[name='q']::placeholder {
     resize: none;
 }
 
-#all-products {
-    font-size: 24px;
-    text-transform: uppercase;
-    color: #007FFF ;
-}
-
 /* Product Form */
 
 .btn-file {
