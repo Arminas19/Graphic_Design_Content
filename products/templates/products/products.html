@@ -5,7 +5,7 @@
     <div class="container header-container text-center">
         <div class="row">
             <div class="col mb-1">
-                <h2 id="all-products" class="all-products">Products</h2>
+                <h2 class="all-products">Products</h2>
                 {% for c in current_categories %}
                     <a class="category-badge" href="{% url 'products' %}?category={{ c.name }}">
                         <span class="p-2 mt-2 badge  rounded-0 border bg-darkBlue">{{ c.friendly_name }}</span>
