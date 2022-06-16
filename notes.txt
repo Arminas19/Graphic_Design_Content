@@ -5,10 +5,6 @@ pass: Admin
 hard refreshing key:
 CTRL-SHIFT-R 
 
-Dont Forget List:
-Example blog 
-update product header font size
-
 4. Stripe
 export STRIPE_WH_SECRET=whsec_3t7tcoEQvLn1SAhmivuH4ZOI8VeI8oE6
 export STRIPE_PUBLIC_KEY=pk_test_51L1T57Cdp2ZLBHrhWYUBvoYmWBSullLfwoSTUEREVOJfj2aZ5KahWThpnvH21oloAHvi8iDBnLDsm2rYs4Y0o3Ek00Qf0iP68v
