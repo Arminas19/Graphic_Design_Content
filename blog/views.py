@@ -42,6 +42,7 @@ def create_blog(request):
     return render(request, template, context)
 
 
+@login_required
 def detailed_blog_view(request, blog_id):
     """ view selected blog """
     post = get_object_or_404(blog, pk=blog_id)
@@ -53,6 +54,7 @@ def detailed_blog_view(request, blog_id):
     return render(request, template, context)
 
 
+@login_required
 def edit_post(request, post_id):
     """ edit blog post. """
     post = get_object_or_404(blog, pk=post_id)
@@ -74,6 +76,7 @@ def edit_post(request, post_id):
     return render(request, template, context)
 
 
+@login_required
 def delete_post(request, post_id):
     """ Deletes blog post. """
     get_object_or_404(blog, pk=post_id).delete()
