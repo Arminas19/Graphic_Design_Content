@@ -75,6 +75,13 @@ The profile page is used only by the customer, it is a way for a customer to set
 <br>
 Their are loads of alert's that the customer might get when they use this site, their are 4 types of alerts, success alerts, error alerts, info alerts and warning alerts. Theys alerts are used all over the website.
 
+
+<strong> Facebook Page Dedicated to our product </strong>
+<br>
+https://www.facebook.com/Creative-Design-111148724932377
+
+![Facebook Page](media/facebookPage.png)
+
 ## Technologies Used
   + HTML
   + CSS
