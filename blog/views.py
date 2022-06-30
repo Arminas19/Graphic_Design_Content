@@ -57,12 +57,20 @@ def detailed_blog_view(request, blog_id):
 @login_required
 def edit_post(request, post_id):
     """ edit blog post. a"""
+
+    post = get_object_or_404(blog, pk=post_id)
+
     user = request.user
-    if user != request.author:
+    if user != post.author:
         messages.error(request, 'Sorry, only authors can do that.')
         return redirect(reverse('blogs'))
 
-    post = get_object_or_404(blog, pk=post_id)
+    print(user)
+    print(post.author)
+    # if not user.is_authenticated:
+    #     messages.error(request, 'Sorry, only authors can do that.')
+    #     return redirect(reverse('blogs'))
+
 
     if request.method == 'POST':
         form = BlogForm(request.POST, request.FILES, instance=post)

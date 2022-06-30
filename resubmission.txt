@@ -15,8 +15,8 @@
 
 2.3 - Manual Testing:
 
-4.3 - Users can access resticted CRUD routes: Issue Fixed by adding @login_required (Not Finished)
+4.3 - Users can access resticted CRUD routes: (Not Finished)
 
 4.4 - Users unable to register for application: Fixed (Now a User is able to register).
 
-4.6 - Non registered user can access restricted areas: Issue Fixed by adding @login_required (Not Finished)
+4.6 - Non registered user can access restricted areas: Issue Fixed by adding @login_required
