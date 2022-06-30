@@ -3,3 +3,5 @@
 5.1 - Facebook page: A section for the Facebook page is now written up in the readme file.
 
 1.1 - Cart Functionality: Has been fixed, now a user can update their product as intended. 
+
+3.7 - No 404 Page: Created a 404 Page.
