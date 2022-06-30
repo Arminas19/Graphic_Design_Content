@@ -57,8 +57,8 @@ def detailed_blog_view(request, blog_id):
 @login_required
 def edit_post(request, post_id):
     """ edit blog post. """
-    if not request.user.is_superuser:
-        messages.error(request, 'Sorry, only store owners can do that.')
+    if not request.user.author:
+        messages.error(request, 'Sorry, only authors can do that.')
         return redirect(reverse('blogs'))
 
     post = get_object_or_404(blog, pk=post_id)
@@ -83,8 +83,8 @@ def edit_post(request, post_id):
 @login_required
 def delete_post(request, post_id):
     """ Deletes blog post. """
-    if not request.user.is_superuser:
-        messages.error(request, 'Sorry, only store owners can do that.')
+    if not request.user.author:
+        messages.error(request, 'Sorry, only authors can do that.')
         return redirect(reverse('blogs'))
 
     get_object_or_404(blog, pk=post_id).delete()
