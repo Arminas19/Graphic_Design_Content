@@ -1,3 +1,5 @@
 6.1 - e-commerce: 
 
 5.1 - Facebook page: A section for the Facebook page is now written up in the readme file.
+
+1.1 - Cart Functionality: Has been fixed, now a user can update their product as intended. 
