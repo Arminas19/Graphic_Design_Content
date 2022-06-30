@@ -15,7 +15,7 @@
 
 2.3 - Manual Testing:
 
-4.3 - Users can access resticted CRUD routes: (Not Finished)
+4.3 - Users can access resticted CRUD routes: Fixed by adding " if user != post.author "
 
 4.4 - Users unable to register for application: Fixed (Now a User is able to register).
 
