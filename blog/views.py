@@ -57,7 +57,8 @@ def detailed_blog_view(request, blog_id):
 @login_required
 def edit_post(request, post_id):
     """ edit blog post. """
-    if not request.user.author:
+    user = request.user
+    if not user.is_authenticated:
         messages.error(request, 'Sorry, only authors can do that.')
         return redirect(reverse('blogs'))
 
@@ -83,7 +84,8 @@ def edit_post(request, post_id):
 @login_required
 def delete_post(request, post_id):
     """ Deletes blog post. """
-    if not request.user.author:
+    user = request.user
+    if not user.is_authenticated:
         messages.error(request, 'Sorry, only authors can do that.')
         return redirect(reverse('blogs'))
 
