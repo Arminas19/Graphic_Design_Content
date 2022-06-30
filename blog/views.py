@@ -56,7 +56,7 @@ def detailed_blog_view(request, blog_id):
 
 @login_required
 def edit_post(request, post_id):
-    """ edit blog post. """
+    """ edit blog post. a"""
     user = request.user
     if user != request.author:
         messages.error(request, 'Sorry, only authors can do that.')
