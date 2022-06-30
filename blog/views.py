@@ -65,12 +65,6 @@ def edit_post(request, post_id):
         messages.error(request, 'Sorry, only authors can do that.')
         return redirect(reverse('blogs'))
 
-    print(user)
-    print(post.author)
-    # if not user.is_authenticated:
-    #     messages.error(request, 'Sorry, only authors can do that.')
-    #     return redirect(reverse('blogs'))
-
 
     if request.method == 'POST':
         form = BlogForm(request.POST, request.FILES, instance=post)
@@ -92,8 +86,9 @@ def edit_post(request, post_id):
 @login_required
 def delete_post(request, post_id):
     """ Deletes blog post. """
+    post = get_object_or_404(blog, pk=post_id)
     user = request.user
-    if not user.is_authenticated:
+    if user != post.author:
         messages.error(request, 'Sorry, only authors can do that.')
         return redirect(reverse('blogs'))
 
