@@ -58,7 +58,7 @@ def detailed_blog_view(request, blog_id):
 def edit_post(request, post_id):
     """ edit blog post. """
     user = request.user
-    if user !== request.author:
+    if user != request.author:
         messages.error(request, 'Sorry, only authors can do that.')
         return redirect(reverse('blogs'))
 
