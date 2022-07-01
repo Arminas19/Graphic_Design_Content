@@ -2,7 +2,7 @@
 
 5.1 - Facebook page: A section for the Facebook page is now written up in the readme file.
 
-1.1 - Cart Functionality: Has been fixed, now a user can update their product as intended. 
+1.1 - Cart Functionality: Has been fixed, now a user can update their product as intended.
 
 1.2 - Purchase confirmation Email: Fixed (Old email didnt work) changed it to a new one. 
 

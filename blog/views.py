@@ -65,6 +65,8 @@ def edit_post(request, post_id):
         messages.error(request, 'Sorry, only authors can do that.')
         return redirect(reverse('blogs'))
 
+    print(user)
+    print(post.author)
 
     if request.method == 'POST':
         form = BlogForm(request.POST, request.FILES, instance=post)
