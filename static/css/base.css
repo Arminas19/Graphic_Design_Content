@@ -87,6 +87,16 @@ body{
     border: 1px solid #007FFF;
 }
 
+#plus-icon {
+    color: #28a745;
+    margin-left: 10px;
+}
+
+#minus-icon {
+    color: red;
+    margin-right: 10px;
+}
+
 .dropdown-item:hover {
     background-color: #6fb7ff;
 }

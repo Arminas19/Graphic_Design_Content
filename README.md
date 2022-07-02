@@ -157,7 +157,7 @@ Code Institutes criteria checklist has been used to check requirements.
 
 ## Bugs & Issues
 * Known Bugs:
-  + Bag page quantity button doesn't work properly.
+  + Bag page quantity button doesn't work properly so i got rid of them for the large screens but kept them for mobile screen sizes.
 
 * Known Issues:
   + All my product descriptions have been deleted since I didn't add them into the fixtures file before uploading them into Heroku and all the names of the products have been re-set to their defaults.
