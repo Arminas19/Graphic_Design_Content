@@ -29,7 +29,11 @@
 ![Closer look into the Invision Diagrams](media/Invision_pages.png)
 ***
 
+## E-commerce Business Model
+* My strategy for conducting business over the Internet is to create a community of people who enjoy the same thing as I do that's why I created a blog page where the user can create blog post's about our products or general things that go along with the theme e.g art, about the website, latest tools for graphic design and more. We sell paintings and graphic designs that have been made by the Creative Design Team, each individual on the team gets a bonus on top of their salary if the product that they have created gets sold. The Creative Design marketing team tries to get more online customers through the market using ads, paid promotions and social media platforms. We use revenue sharing as a strategy to get more customers involved in our store, the paid promotions that we do also include some bonuses for the promotor such as if a certain amount of viewers click on the link and review our website the promotor gets a small percentage of the revenue share.      
 
+![ERD Diagram](media/erd_diagram.png)
+* This diagram shows how the purchase of a product is calculated and approved from both sides, the customers and our management systems.
 # Introduction To My Website
 
 ![Creative Design website landing page](media/CreativeDesign.png)

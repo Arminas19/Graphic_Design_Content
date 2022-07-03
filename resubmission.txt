@@ -1,4 +1,4 @@
-6.1 - e-commerce: 
+6.1 - e-commerce: Added a E-commerce Business Model section in the readMe file. 
 
 5.1 - Facebook page: A section for the Facebook page is now written up in the readme file.
 
