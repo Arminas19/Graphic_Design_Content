@@ -205,6 +205,10 @@ Code Institutes criteria checklist has been used to check requirements.
 ## Fixed Bugs & Issues
  * Fixed Issues: 
   + The product's name and descriptions have been re-made using the admin panel.
+* Fixed Bugs:
+  + User who weren't the authors of a blog post were able to edit or delete them, they were able to do this by entering the blog post URL. This bug has been fixed by checking if the currently logged-in user (that typed up the blog post URL) was the author of that post.
+  + The Shopping bag page had a problem with the quantity functionality. What was happening was that if you had 2 different sizes of the same product and change the quantity it would get rid of the sizes all together. This bug has now been fixed.
+  + The shopping bag page had a problem with the quantity buttons. It was able to go down to minus integers which isn't supposed to work like that. Problem fixed by deleting the buttons and instead using the input field to lower/higher the quantity on larger screens. Mobile screens worked fine so I left the quantity buttons only on mobile screens. 
 
 # Deployment
 * Github repo - https://github.com/Arminas19/Graphic_Design_Content
