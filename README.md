@@ -150,6 +150,37 @@ Code Institutes criteria checklist has been used to check requirements.
    <li> profiles view has 2 line too long errors and 2 trailing whitespace errors </li>
 </ul>
 
+<strong> Card Paymnets </strong>
+*  Card number: 4242 4242 4242 4242
+*  Zip & CCV must be filled out with any integers.
+
+<strong> Guest User Experience & Goals </strong>
+* Upon entering the site, users immediately view the shop now button to browse all products.
+* The website provides a great navbar that's always visible with links for the products page, blog page, and the contact/about page.
+* In the navbar, the user can search for a name of a painting, graphic design, or pixel art.
+* Every page of the website features a consistently responsive and intuitive layout.
+* On the All Products page, the user can see the categories, amount of products, name of the product, rating of a product, price, and the sort input that the user can use to sort their products.
+* The sort input has 3 options, rate the product by price, rating, or alphabetical order. 
+* User can view the details of a single product. So that they can understand the details and add the product to the checkout page. 
+* On the product details page, the user can easily see what other customers thought of the product. 
+* Facebook, Instagram, Twitter, Youtube, and Google+ are all located in the footer for easy access to their social media platforms. 
+
+<strong> Registered User Experience & Goals </strong>
+* On the checkout page the user can flag the option to save their personal information in their profile so that they won't need to re-write the same information the next time they want to buy something else from the store.  
+* On the profile page, the user can check their previous purchases from the store. The user can click on a particular order to check the order details.
+* The user can go to their profile page and edit their personal information, also the user can go to the checkout page and edit the information and flag the option to save them to their profile page.
+* The user can easily log in, signup, and log out from the website, the signup page has been fixed so now the user can easily receive the verification email once they enter their details.  
+* The user can easily recover their password now using the forgot password link on the login page.
+* Logged In users can leave a review on products, they can also edit and delete these reviews.
+* Logged In users can create a blog post on the blogs page. They can also edit or delete their own posts. The bug with being able to delete or edit other users' posts has been fixed. 
+
+
+<strong> Admin Features / Test's </strong>
+* The Admin can edit or delete every product from the products page and the product details page.
+* The Admin can access the Django administration panel and edit the products and the categories.
+* The admin can verify emails and give users staff status.
+* All They's features have been manually tested. 
+
 ## Google Lighthouse
 * Results For: 
   + home page - 95 Performance, 94 Accessibility, 75 Best Practices, 100 SEO
