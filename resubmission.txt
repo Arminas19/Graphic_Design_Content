@@ -1,23 +1,23 @@
-6.1 - e-commerce: Added a E-commerce Business Model section in the readMe file. 
-
-5.1 - Facebook page: A section for the Facebook page is now mentioned in the readme file.
-
 1.1 - Cart Functionality: Has been fixed, now a user can update their product as intended.
 
 1.2 - Purchase confirmation Email: Fixed (Old email didnt work) changed it to a new one. 
 
-3.7 - No 404 Page: Created a 404 Page.
-
-4.1 - New user registration functionality: Fixed ( old email didnt work) 
-    Just changed it to a new email and now it works.  
-
-1.19 - More Testing procedures and Deployment: Added more content for tesing and Deployment
+1.19 - More Testing procedures and Deployment: Added more content for tesing and Deployment.
 
 2.3 - Manual Testing: Added More content to the testing section. Added Card Payments, Guest User Experience & Goals, 
-Registered User Experience & Goals and Admin Features / Test's
+        Registered User Experience & Goals and Admin Features / Test's
+
+3.7 - No 404 Page: Created a 404 Page.
+
+4.1 - New user registration functionality: Fixed ( old email didnt work). Just changed it to a new email and now it works.
 
 4.3 - Users can access restricted CRUD routes: Fixed by adding " if user != post.author "
 
-4.4 - Users unable to register for application: Fixed (Now a User is able to register).
+4.4 - Users unable to register for application: Fixed (Now a User is able to register). 
+        Just changed it to a new email and now it works.  
 
 4.6 - Non registered user can access restricted areas: Issue Fixed by adding @login_required
+
+5.1 - Facebook page: A section for the Facebook page is now mentioned in the readme file.
+
+6.1 - e-commerce: Added a E-commerce Business Model section in the readMe file. 
