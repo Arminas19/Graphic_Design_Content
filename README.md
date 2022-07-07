@@ -228,21 +228,56 @@ Amazon Web Services(AWS) is used for all static and media files that your live s
 
 You will need to install a few extensions in your terminal first using the command 'pip' and then freeze them in the requirements.txt file. The second step would be to go to the settings.py file and add some Bucket Config vars to your settings also you will need to set the root for your media and static files using the custom_storages.py file and then you will need to override the URLs for those static and media files so that they would be used in production. the last step would be to delete the disable-static var from Heroku and commit your final code and push it to Heroku. 
 
+<strong> Steps i took for Heroku and AWS Deployment </strong>
+
+<ol>
+  <li> Crate a new app in Heroku. </li>
+  <li> Then put the App name and select the region.  </li>
+  <li> Add Heroku Postgres for the database.  </li>
+  <li> Install dj_database_url and psycopg2-binary to use Heroku Postgres, and run pip3 freeze > requirements.txt command to add them on requirments.txt.  </li>
+  <li> In the settings.py file import dj_database_url, comment out sqlite databases and add dj databases variable temporary while the database is transferred to Heroku Postgres.  </li>
+  <li> Migrate changes.  </li>
+  <li> Import all products data. Run python3 manage.py loaddata command to load the categories first and the products last. The order of loading is important as all the products are associated with categories.</li>
+  <li> Create a superuser with python3 manage.py createsuperuser command.  </li>
+  <li> Install gunicorn which acts as the webserver, and freeze it into requirements file with the command pip3 freeze > requirements.txt  </li>
+  <li> Create a Procfile.  </li>
+  <li> Temporary disable collectstatic by setting heroku config:set DISABLE_COLLECTSTATIC = 1 and host name of Heroku to allowed hosts in settings.py.  </li>
+  <li>Initialise Heroku.  </li>
+  <li> Set up the automatic deployment.  </li>
+  <li> Generate a new secret key, set it in Heroku and update settings.py file. Change the setting of Debug mode that only True in Development mode.  </li>
+</ol>
+
+<strong> AWS </strong>
+
+<ol>
+  <li> Open AWS S3 and create a new bucket, which stores the files, by completing the name and the region.  </li>
+  <li>Set up the basic settings. Enable static website hosting so that it gives a new endpoint for accessing from the internet. Put index.html and error.html as default values.  </li>
+  <li> Set up CORS configuration.  </li>
+  <li> Set up a Bucket Policy. Generate a policy with AWS policy generator. Add /* at the end of Resource to allow access to all resources in the bucket.  </li>
+  <li> Create a user to access the bucket.  </li>
+  <li> Attach the policy to the group.  </li>
+  <li> Create a user and add it to the group.  </li>
+  <li> Update settings.py file to tell Django which bucket it should be communicating with.   </li>
+  <li> Add AWS keys to Heroku and set USE_AWS = True under the app 'Settings' tab --> 'Config Vars'  </li>
+</ol>
+
+***
+
 ## Credits
 
-<h2> Images </h2>
+<strong> <h3> Images </h3> </strong>
 I got my products images from the website Kaggle.com
 I got my Logo from shopify.com at https://hatchful.shopify.com/
 i got my background image from google images. 
 
-<h2> Code </h2>
+<strong> <h3> Code </h3> </strong>
 Stack Overflow - I checked Stack Overflow when i got stuck on a problem.
 Code Instite - I used some of the code from the Boutique Ado E-commerce website.
 Bootstrap - I used bootstrap's code
 Youtube - I watched tutorials which helped me get a better understanding on Django.
 I reviewed my previous project(4th project) and figured out what worked and what didn't, so I had a clearer vision of how am I going to use my Django skills to finish this project.
 
-<h2> Help </h2>
+<strong> <h3> Help </h3> </strong>
 I got help from the Code Institute's tutor assistance team on a few problems that I couldn't solve myself.
 I got help from my mentor Sandeep who reviewed my website.
 <br>
