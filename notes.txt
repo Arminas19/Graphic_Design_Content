@@ -10,3 +10,19 @@ export STRIPE_WH_SECRET=whsec_3t7tcoEQvLn1SAhmivuH4ZOI8VeI8oE6
 export STRIPE_PUBLIC_KEY=pk_test_51L1T57Cdp2ZLBHrhWYUBvoYmWBSullLfwoSTUEREVOJfj2aZ5KahWThpnvH21oloAHvi8iDBnLDsm2rYs4Y0o3Ek00Qf0iP68v
 export STRIPE_SECRET_KEY=sk_test_51L1T57Cdp2ZLBHrh1dlpTU4QIJpJ1APFnsr26auDqWKhDvaQ5SQ8F7ThTxvlqmeSTahBABTtDm4MyLwCw4ltS0i700i9x1dguo
 * export Stripe_public_key and stripe_secret_key each time you start your workspace.
+
+studied:
+Day 1 :
+home & Creative_design.
+
+day2: 
+products & bag.
+
+day3:
+profiles & checkout.
+
+day 4:
+about & Creative_design.
+
+day 5:
+transfer some data from heroku to production.
