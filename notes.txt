@@ -12,10 +12,10 @@ export STRIPE_SECRET_KEY=sk_test_51L1T57Cdp2ZLBHrh1dlpTU4QIJpJ1APFnsr26auDqWKhDv
 * export Stripe_public_key and stripe_secret_key each time you start your workspace.
 
 studied:
-Day 1 :
+Day 1 : DONE
 home & Creative_design.
 
-day2: 
+day2: DONE
 products & bag.
 
 day3:
