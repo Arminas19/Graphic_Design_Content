@@ -18,7 +18,7 @@ home & Creative_design.
 day2: DONE
 products & bag.
 
-day3:
+day3: DONE
 profiles & checkout.
 
 day 4:
