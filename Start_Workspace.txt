@@ -5,24 +5,15 @@ pass: Admin
 hard refreshing key:
 CTRL-SHIFT-R 
 
-4. Stripe
+
+In The Terminal Do: 
+
+1. Stripe
 export STRIPE_WH_SECRET=whsec_3t7tcoEQvLn1SAhmivuH4ZOI8VeI8oE6
 export STRIPE_PUBLIC_KEY=pk_test_51L1T57Cdp2ZLBHrhWYUBvoYmWBSullLfwoSTUEREVOJfj2aZ5KahWThpnvH21oloAHvi8iDBnLDsm2rYs4Y0o3Ek00Qf0iP68v
 export STRIPE_SECRET_KEY=sk_test_51L1T57Cdp2ZLBHrh1dlpTU4QIJpJ1APFnsr26auDqWKhDvaQ5SQ8F7ThTxvlqmeSTahBABTtDm4MyLwCw4ltS0i700i9x1dguo
 * export Stripe_public_key and stripe_secret_key each time you start your workspace.
 
-studied:
-Day 1 : DONE
-home & Creative_design.
+2. write - pip3 install -r requirements.txt
 
-day2: DONE
-products & bag.
-
-day3: DONE
-profiles & checkout.
-
-day 4: DONE
-about & Creative_design.
-
-day 5: DONE
-transfer some data from heroku to production.
+3. python3 manange.py runserver to start website.
