@@ -10,7 +10,14 @@
 7. python3 manage.py loaddata categories.json
 8. python3 manage.py loaddata products.json
 7. python3 manage.py runserver
-* Note to user - No blog will be shown you will have to create your own. 
+* Note to user - No blog will be shown you will have to create your own. You can do that by creating a super user
+* Steps to creating a super user:
+1. In the terminal type: 'python manage.py createsuperuser'
+2. create your username & password
+3. open the website by typing 'python3 manage.py runserver' and in the website's url add  '/admin' to the end of the url
+4. login with your new super user
+5. Go to users in the administration site
+6. Go to your user account & Scroll down to User permissions & press choose all, then save and you will be ready to check out the website and edit it as you wish.
 ## Preparation
 
 * I have created User stories so that I could set specific goals for myself. I created some milestones so that I can better organize my time and focus my effort on a specific objective that I set for myself. I also created a project with 3 columns - To do column, In progress column and Done column. I created them so that i can clearly follow the specific goal that i set for myself.
