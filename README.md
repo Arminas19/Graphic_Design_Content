@@ -1,5 +1,16 @@
 # Creative Design
-
+* To open this website on your workspace follow steps below:
+* In the bash terminal type commands:
+1. pip3 install -r requirements.txt
+2. export STRIPE_WH_SECRET=whsec_3t7tcoEQvLn1SAhmivuH4ZOI8VeI8oE6
+3. export STRIPE_PUBLIC_KEY=pk_test_51L1T57Cdp2ZLBHrhWYUBvoYmWBSullLfwoSTUEREVOJfj2aZ5KahWThpnvH21oloAHvi8iDBnLDsm2rYs4Y0o3Ek00Qf0iP68v
+4. export STRIPE_SECRET_KEY=sk_test_51L1T57Cdp2ZLBHrh1dlpTU4QIJpJ1APFnsr26auDqWKhDvaQ5SQ8F7ThTxvlqmeSTahBABTtDm4MyLwCw4ltS0i700i9x1dguo
+5. python3 manage.py makemigrations
+6. python3 manage.py migrate
+7. python3 manage.py loaddata categories.json
+8. python3 manage.py loaddata products.json
+7. python3 manage.py runserver
+* Note to user - No blog will be shown you will have to create your own. 
 ## Preparation
 
 * I have created User stories so that I could set specific goals for myself. I created some milestones so that I can better organize my time and focus my effort on a specific objective that I set for myself. I also created a project with 3 columns - To do column, In progress column and Done column. I created them so that i can clearly follow the specific goal that i set for myself.
